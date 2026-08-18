@@ -85,6 +85,83 @@ public sealed class ReportService
             Rows = rows
         };
     }
+
+    /// <summary>
+    /// Per-driver performance for the trailing 7 days ending at
+    /// <paramref name="asOfUtc"/>'s UTC date (exclusive): tasks delivered,
+    /// failed attempts, and average hours from assignment to delivery.
+    /// Walks each task's audit history rather than filtering tasks by
+    /// UpdatedUtc, so an attempt that failed inside the window still counts
+    /// even if the task was later delivered (and its UpdatedUtc bumped)
+    /// outside the window.
+    /// </summary>
+    public async Task<IReadOnlyList<WeeklyDriverPerformanceRow>> GetWeeklyDriverPerformanceAsync(
+        DateTime asOfUtc, CancellationToken ct = default)
+    {
+        var to = asOfUtc.Date;
+        var from = to.AddDays(-7);
+        var tenantId = _tenant.TenantId;
+
+        var tasks = await _tasks.QueryAsync(tenantId, t => t.DriverId != null, ct);
+        var drivers = (await _drivers.QueryAsync(tenantId, d => true, ct)).ToDictionary(d => d.Id);
+
+        var stats = new Dictionary<string, DriverStats>();
+
+        foreach (var task in tasks)
+        {
+            var driverId = task.DriverId!;
+
+            foreach (var change in task.History)
+            {
+                if (change.AtUtc < from || change.AtUtc >= to)
+                {
+                    continue;
+                }
+
+                if (!stats.TryGetValue(driverId, out var driverStats))
+                {
+                    driverStats = new DriverStats();
+                    stats[driverId] = driverStats;
+                }
+
+                if (change.To == DeliveryTaskStatus.AttemptFailed)
+                {
+                    driverStats.FailedAttempts++;
+                }
+                else if (change.To == DeliveryTaskStatus.Delivered)
+                {
+                    driverStats.Delivered++;
+                    if (task.AssignedUtc is { } assignedUtc)
+                    {
+                        driverStats.TotalHoursAssignedToDelivered += (change.AtUtc - assignedUtc).TotalHours;
+                        driverStats.DeliveredWithAssignment++;
+                    }
+                }
+            }
+        }
+
+        return stats
+            .Select(kvp => new WeeklyDriverPerformanceRow
+            {
+                DriverId = kvp.Key,
+                DriverName = drivers.TryGetValue(kvp.Key, out var driver) ? driver.Name : "(unknown)",
+                TasksDelivered = kvp.Value.Delivered,
+                FailedAttempts = kvp.Value.FailedAttempts,
+                AvgHoursAssignedToDelivered = kvp.Value.DeliveredWithAssignment > 0
+                    ? Math.Round(kvp.Value.TotalHoursAssignedToDelivered / kvp.Value.DeliveredWithAssignment, 2)
+                    : 0
+            })
+            .OrderBy(r => r.DriverName, StringComparer.Ordinal)
+            .ToList();
+    }
+
+    private sealed class DriverStats
+    {
+        public int Delivered;
+        public int FailedAttempts;
+        public int DeliveredWithAssignment;
+        public double TotalHoursAssignedToDelivered;
+    }
 }
 
 public sealed class DailySummaryReport
@@ -94,6 +171,15 @@ public sealed class DailySummaryReport
     public int TotalFailedAttempts { get; set; }
     public int TotalCancelled { get; set; }
     public List<DailySummaryRow> Rows { get; set; } = new();
+}
+
+public sealed class WeeklyDriverPerformanceRow
+{
+    public string DriverId { get; set; } = string.Empty;
+    public string DriverName { get; set; } = string.Empty;
+    public int TasksDelivered { get; set; }
+    public int FailedAttempts { get; set; }
+    public double AvgHoursAssignedToDelivered { get; set; }
 }
 
 public sealed class DailySummaryRow

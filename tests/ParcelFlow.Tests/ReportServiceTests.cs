@@ -92,4 +92,52 @@ public class ReportServiceTests
         Assert.DoesNotContain(report.Rows, r => r.RecipientCity == "Manila");
         Assert.DoesNotContain(report.Rows, r => r.DriverName == driverB.Name);
     }
+
+    [Fact]
+    public async Task Weekly_driver_performance_counts_only_events_within_the_trailing_7_days()
+    {
+        using var world = new TestWorld();
+        var driver = await world.SeedDriverAsync(name: "Driver A");
+        await world.SeedOpenShiftAsync(driver);
+
+        // asOf 2026-07-15 -> window is [2026-07-08, 2026-07-15).
+        var asOf = new DateTime(2026, 7, 15, 0, 0, 0, DateTimeKind.Utc);
+
+        // In-window: delivered 5 hours after assignment.
+        world.Clock.UtcNow = new DateTime(2026, 7, 10, 8, 0, 0, DateTimeKind.Utc);
+        var inWindowDelivered = await world.SeedParcelAsync(reference: "IN-DELIVERED");
+        var deliveredTask = (await world.TaskService.CreateForParcelAsync(inWindowDelivered.Id)).Value!;
+        await world.TaskService.AssignAsync(deliveredTask.Id, driver.Id);
+        await world.TaskService.RecordPickupAsync(deliveredTask.Id);
+        await world.TaskService.StartTransitAsync(deliveredTask.Id);
+        world.Clock.UtcNow = world.Clock.UtcNow.AddHours(5);
+        await world.TaskService.MarkDeliveredAsync(deliveredTask.Id, null);
+
+        // In-window: one failed attempt.
+        world.Clock.UtcNow = new DateTime(2026, 7, 11, 8, 0, 0, DateTimeKind.Utc);
+        var inWindowFailed = await world.SeedParcelAsync(reference: "IN-FAILED");
+        var failedTask = (await world.TaskService.CreateForParcelAsync(inWindowFailed.Id)).Value!;
+        await world.TaskService.AssignAsync(failedTask.Id, driver.Id);
+        await world.TaskService.RecordPickupAsync(failedTask.Id);
+        await world.TaskService.StartTransitAsync(failedTask.Id);
+        await world.TaskService.RecordFailedAttemptAsync(failedTask.Id, "recipient absent");
+
+        // Outside the window: delivered a week before it opens.
+        world.Clock.UtcNow = new DateTime(2026, 7, 1, 8, 0, 0, DateTimeKind.Utc);
+        var outOfWindow = await world.SeedParcelAsync(reference: "OUT-OF-WINDOW");
+        var oldTask = (await world.TaskService.CreateForParcelAsync(outOfWindow.Id)).Value!;
+        await world.TaskService.AssignAsync(oldTask.Id, driver.Id);
+        await world.TaskService.RecordPickupAsync(oldTask.Id);
+        await world.TaskService.StartTransitAsync(oldTask.Id);
+        await world.TaskService.MarkDeliveredAsync(oldTask.Id, null);
+
+        var rows = await world.ReportService.GetWeeklyDriverPerformanceAsync(asOf);
+
+        var row = Assert.Single(rows);
+        Assert.Equal(driver.Id, row.DriverId);
+        Assert.Equal(driver.Name, row.DriverName);
+        Assert.Equal(1, row.TasksDelivered);
+        Assert.Equal(1, row.FailedAttempts);
+        Assert.Equal(5.0, row.AvgHoursAssignedToDelivered);
+    }
 }

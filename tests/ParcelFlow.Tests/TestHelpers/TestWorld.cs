@@ -47,7 +47,7 @@ public sealed class TestWorld : IDisposable
         AssignmentService = new AssignmentService(TenantContext, Drivers, Shifts, Tasks, TaskService);
         ShiftService = new ShiftService(TenantContext, Shifts, Drivers, Clock);
         ParcelService = new ParcelService(TenantContext, Parcels, Clock);
-        ReportService = new ReportService(Tasks, Parcels, Drivers);
+        ReportService = new ReportService(TenantContext, Tasks, Parcels, Drivers);
     }
 
     public FixedClock Clock { get; }

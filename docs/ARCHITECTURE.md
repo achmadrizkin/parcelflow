@@ -67,10 +67,18 @@ In production this dispatcher sits behind a message bus. Keep rules idempotent.
 
 ## §6 — Reporting
 
-Operational reporting is handled by the DataWarehouse pipeline: a nightly job
-reads the day's task activity, builds per-tenant exports, and serves them via
-the DW API. The web API exposes `GET /api/reports/daily-summary` as a thin
-proxy over the most recent export.
+The DataWarehouse module described here previously was retired (ADR-0003);
+reporting is served live from the main API by `ReportService`, scoped to the
+current tenant like every other service (see ADR-0005, which closed the
+PF-902 follow-up after a cross-tenant leak — PF-1287 — was traced to this
+code still running an unscoped, DW-era query).
+
+- `GET /api/reports/daily-summary?day=YYYY-MM-DD` — every task that reached
+  a terminal state or had a failed attempt on the given UTC day, for the
+  requesting tenant.
+- `GET /api/reports/weekly-driver-performance?asOf=YYYY-MM-DD` — per-driver
+  tasks delivered, failed attempts, and average hours from assignment to
+  delivery over the trailing 7 days, as CSV.
 
 ## §7 — Storage
 

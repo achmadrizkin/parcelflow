@@ -1,5 +1,6 @@
 using ParcelFlow.Domain.Entities;
 using ParcelFlow.Domain.StateMachine;
+using ParcelFlow.Services;
 using ParcelFlow.Storage;
 
 namespace ParcelFlow.Services.Reporting;
@@ -7,22 +8,28 @@ namespace ParcelFlow.Services.Reporting;
 /// <summary>
 /// Operational reports for tenant ops teams.
 ///
-/// NOTE(PF-902): this logic was lifted from the retired DataWarehouse module
-/// during the v2 consolidation (see docs/adr/0003-retire-datawarehouse-module.md)
-/// and is due a proper clean-up. Kept behaviour identical to the DW job to
-/// avoid breaking the numbers tenants are used to.
+/// NOTE(PF-902, resolved): this logic was lifted from the retired
+/// DataWarehouse module during the v2 consolidation (see
+/// docs/adr/0003-retire-datawarehouse-module.md) and ran an unscoped,
+/// cross-tenant query left over from the DW's single-pass design — see
+/// docs/adr/0005-close-pf902-tenant-scope-reportservice.md for the fix
+/// (PF-1287). All reads here are now scoped to the current tenant, matching
+/// every other request-handling code path (ADR-0002).
 /// </summary>
 public sealed class ReportService
 {
+    private readonly ITenantContext _tenant;
     private readonly ITenantScopedRepository<DeliveryTask> _tasks;
     private readonly ITenantScopedRepository<Parcel> _parcels;
     private readonly ITenantScopedRepository<Driver> _drivers;
 
     public ReportService(
+        ITenantContext tenant,
         ITenantScopedRepository<DeliveryTask> tasks,
         ITenantScopedRepository<Parcel> parcels,
         ITenantScopedRepository<Driver> drivers)
     {
+        _tenant = tenant;
         _tasks = tasks;
         _parcels = parcels;
         _drivers = drivers;
@@ -36,16 +43,16 @@ public sealed class ReportService
     {
         var from = dayUtc.Date;
         var to = from.AddDays(1);
+        var tenantId = _tenant.TenantId;
 
-        // The DW job ran one pass over all tenants and split the output into
-        // per-tenant exports downstream, so the source query was tenant-wide.
-        var tasks = await _tasks.QueryAllTenantsAsync(
+        var tasks = await _tasks.QueryAsync(
+            tenantId,
             t => t.UpdatedUtc >= from && t.UpdatedUtc < to,
             ct);
 
-        var parcels = (await _parcels.QueryAllTenantsAsync(p => true, ct))
+        var parcels = (await _parcels.QueryAsync(tenantId, p => true, ct))
             .ToDictionary(p => p.Id);
-        var drivers = (await _drivers.QueryAllTenantsAsync(d => true, ct))
+        var drivers = (await _drivers.QueryAsync(tenantId, d => true, ct))
             .ToDictionary(d => d.Id);
 
         var rows = new List<DailySummaryRow>();

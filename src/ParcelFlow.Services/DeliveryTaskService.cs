@@ -180,6 +180,25 @@ public sealed class DeliveryTaskService
         return await TransitionAsync(taskId, DeliveryTaskStatus.InTransit, "Retrying delivery", null, ct);
     }
 
+    /// <summary>Called by the hub when a driver hands back a returned parcel, closing the task.</summary>
+    public async Task<Result<DeliveryTask>> CompleteReturnAsync(string taskId, string? note, CancellationToken ct = default)
+    {
+        var result = await TransitionAsync(taskId, DeliveryTaskStatus.ReturnCompleted, note ?? "Return completed at hub",
+            (task, now) => task.ReturnCompletedUtc = now, ct);
+
+        if (result.IsSuccess && result.Value is not null)
+        {
+            await _events.DispatchAsync(new TaskReturnCompletedEvent
+            {
+                TenantId = _tenant.TenantId,
+                OccurredUtc = _clock.UtcNow,
+                Task = result.Value
+            }, ct);
+        }
+
+        return result;
+    }
+
     public async Task<Result<DeliveryTask>> CancelAsync(string taskId, string reason, CancellationToken ct = default)
     {
         var result = await TransitionAsync(taskId, DeliveryTaskStatus.Cancelled, reason, null, ct);

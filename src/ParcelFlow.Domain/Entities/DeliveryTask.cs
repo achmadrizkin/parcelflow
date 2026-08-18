@@ -23,6 +23,12 @@ public sealed class DeliveryTask : TenantDocument
     public DateTime? PickedUpUtc { get; set; }
     public DateTime? DeliveredUtc { get; set; }
 
+    /// <summary>Set when the task is auto-scheduled for return after repeated failed attempts.</summary>
+    public DateTime? ReturnScheduledUtc { get; set; }
+
+    /// <summary>Set when a driver completes the return at the hub.</summary>
+    public DateTime? ReturnCompletedUtc { get; set; }
+
     /// <summary>Free-text note captured at proof of delivery.</summary>
     public string? PodNote { get; set; }
 

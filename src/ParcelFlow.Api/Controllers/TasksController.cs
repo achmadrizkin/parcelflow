@@ -76,6 +76,11 @@ public sealed class TasksController : ControllerBase
     public async Task<IActionResult> Retry(string id, CancellationToken ct)
         => ToResponse(await _tasks.RetryAsync(id, ct));
 
+    /// <summary>Called by the hub once a driver hands back a returned parcel.</summary>
+    [HttpPost("{id}/complete-return")]
+    public async Task<IActionResult> CompleteReturn(string id, [FromBody] CompleteReturnRequest? request, CancellationToken ct)
+        => ToResponse(await _tasks.CompleteReturnAsync(id, request?.Note, ct));
+
     [HttpPost("{id}/cancel")]
     public async Task<IActionResult> Cancel(string id, [FromBody] CancelRequest request, CancellationToken ct)
         => ToResponse(await _tasks.CancelAsync(id, request.Reason, ct));
@@ -104,4 +109,9 @@ public sealed class AttemptFailedRequest
 public sealed class CancelRequest
 {
     public required string Reason { get; init; }
+}
+
+public sealed class CompleteReturnRequest
+{
+    public string? Note { get; init; }
 }

@@ -119,6 +119,46 @@ public class DeliveryTaskServiceTests
     }
 
     [Fact]
+    public async Task CompleteReturnAsync_closes_a_scheduled_return()
+    {
+        using var world = new TestWorld();
+        var parcel = await world.SeedParcelAsync();
+        var driver = await world.SeedDriverAsync();
+        await world.SeedOpenShiftAsync(driver);
+        var task = (await world.TaskService.CreateForParcelAsync(parcel.Id)).Value!;
+        await world.TaskService.AssignAsync(task.Id, driver.Id);
+        await world.TaskService.RecordPickupAsync(task.Id);
+        await world.TaskService.StartTransitAsync(task.Id);
+        await world.TaskService.RecordFailedAttemptAsync(task.Id, "recipient absent");
+
+        // The automatic AttemptFailed -> ReturnScheduled hop normally happens
+        // via the event pipeline (see ReturnToSenderTests); simulate it here
+        // to test CompleteReturnAsync in isolation.
+        var scheduled = await world.Tasks.GetAsync(world.TenantId, task.Id);
+        DeliveryTaskStateMachine.Transition(scheduled!, DeliveryTaskStatus.ReturnScheduled, world.Clock.UtcNow, "test setup");
+        await world.Tasks.UpsertAsync(scheduled!);
+
+        var result = await world.TaskService.CompleteReturnAsync(task.Id, "Handed back by driver");
+
+        Assert.True(result.IsSuccess);
+        Assert.Equal(DeliveryTaskStatus.ReturnCompleted, result.Value!.Status);
+        Assert.NotNull(result.Value.ReturnCompletedUtc);
+        Assert.Contains(world.Events.Dispatched, e => e is TaskReturnCompletedEvent);
+    }
+
+    [Fact]
+    public async Task CompleteReturnAsync_rejects_a_task_that_was_never_scheduled_for_return()
+    {
+        using var world = new TestWorld();
+        var parcel = await world.SeedParcelAsync();
+        var task = (await world.TaskService.CreateForParcelAsync(parcel.Id)).Value!;
+
+        var result = await world.TaskService.CompleteReturnAsync(task.Id, null);
+
+        Assert.False(result.IsSuccess);
+    }
+
+    [Fact]
     public async Task Task_from_another_tenant_is_invisible()
     {
         using var world = new TestWorld();

@@ -48,12 +48,19 @@ services take the tenant from the context, never from request payloads.
 The task state machine lives in
 `ParcelFlow.Domain/StateMachine/DeliveryTaskStateMachine.cs` and is the only
 sanctioned way to change a task's status. Current states: Created, Assigned,
-PickedUp, InTransit, AttemptFailed, Delivered (terminal), Cancelled (terminal).
+PickedUp, InTransit, AttemptFailed, Delivered (terminal), Cancelled
+(terminal), ReturnScheduled, ReturnCompleted (terminal).
 
 Failed attempts increment `AttemptCount` and raise `DeliveryAttemptFailedEvent`.
-Operational policy for parcels that repeatedly fail delivery is owned by the
-tenant's ops team (they get an ops-webhook alert from the second failed
-attempt; see `RepeatedFailureOpsAlertRule`).
+The tenant's ops channel gets an alert from the second failed attempt (see
+`RepeatedFailureOpsAlertRule`). From the **3rd** failed attempt, the task is
+automatically moved to `ReturnScheduled` — no more retries — the recipient is
+SMS'd, and ops gets a second, specific alert (see
+`ScheduleReturnOnThirdFailedAttemptRule`, registered like every other
+`IEventRule`). A driver later completes the return at the hub via
+`POST /api/tasks/{id}/complete-return`, which moves the task to the terminal
+`ReturnCompleted` state. A scheduled return can still be cancelled
+(`ReturnScheduled → Cancelled`), same as any other open task.
 
 ## §5 — Events
 

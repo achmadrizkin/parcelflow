@@ -9,8 +9,12 @@ namespace ParcelFlow.Domain.StateMachine;
 ///      │            │                        │  ▲
 ///      ▼            ▼                        ▼  │ (retry)
 ///  Cancelled    Cancelled              AttemptFailed ──► Cancelled
-///                   │
-///                   └──► Created (unassign)
+///                   │                        │
+///                   └──► Created (unassign)   ▼ (3rd failed attempt, automatic)
+///                                       ReturnScheduled ──► Cancelled
+///                                              │
+///                                              ▼ (completed at hub)
+///                                       ReturnCompleted (terminal)
 ///
 /// Any status change anywhere in the platform MUST go through
 /// <see cref="Transition"/> so the audit history stays complete and invalid
@@ -25,9 +29,11 @@ public static class DeliveryTaskStateMachine
             [DeliveryTaskStatus.Assigned] = new[] { DeliveryTaskStatus.PickedUp, DeliveryTaskStatus.Created, DeliveryTaskStatus.Cancelled },
             [DeliveryTaskStatus.PickedUp] = new[] { DeliveryTaskStatus.InTransit },
             [DeliveryTaskStatus.InTransit] = new[] { DeliveryTaskStatus.Delivered, DeliveryTaskStatus.AttemptFailed },
-            [DeliveryTaskStatus.AttemptFailed] = new[] { DeliveryTaskStatus.InTransit, DeliveryTaskStatus.Cancelled },
+            [DeliveryTaskStatus.AttemptFailed] = new[] { DeliveryTaskStatus.InTransit, DeliveryTaskStatus.Cancelled, DeliveryTaskStatus.ReturnScheduled },
             [DeliveryTaskStatus.Delivered] = Array.Empty<DeliveryTaskStatus>(),
-            [DeliveryTaskStatus.Cancelled] = Array.Empty<DeliveryTaskStatus>()
+            [DeliveryTaskStatus.Cancelled] = Array.Empty<DeliveryTaskStatus>(),
+            [DeliveryTaskStatus.ReturnScheduled] = new[] { DeliveryTaskStatus.ReturnCompleted, DeliveryTaskStatus.Cancelled },
+            [DeliveryTaskStatus.ReturnCompleted] = Array.Empty<DeliveryTaskStatus>()
         };
 
     public static bool CanTransition(DeliveryTaskStatus from, DeliveryTaskStatus to)

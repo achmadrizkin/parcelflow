@@ -36,3 +36,11 @@ public sealed class TaskCancelledEvent : IDomainEvent
     public required DeliveryTask Task { get; init; }
     public required string Reason { get; init; }
 }
+
+/// <summary>Raised when a driver completes a scheduled return at the hub.</summary>
+public sealed class TaskReturnCompletedEvent : IDomainEvent
+{
+    public required string TenantId { get; init; }
+    public required DateTime OccurredUtc { get; init; }
+    public required DeliveryTask Task { get; init; }
+}

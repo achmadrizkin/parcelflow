@@ -10,6 +10,7 @@
 | **Shift** | A driver's working window. Only drivers with an **open shift** (no `EndedUtc`) are assignable. |
 | **POD** | Proof of delivery — the note captured when a parcel is handed over. |
 | **COD** | Cash on delivery — amount the driver collects from the recipient. |
-| **Hub** | The tenant's depot where drivers collect parcels. Not modelled as an entity yet. |
+| **Hub** | The tenant's depot where drivers collect parcels — and, since Return to Sender, where they hand back undeliverable ones. Not modelled as an entity yet. |
 | **Ops team** | The tenant-side operations staff who monitor alerts and reports. |
 | **Sweep** | One pass of a background worker over all tenants. |
+| **Return to sender** | After the 3rd failed delivery attempt, a task is automatically moved to `ReturnScheduled` instead of being retried again; a driver later closes it out at the hub (`ReturnCompleted`). |

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "shift_20260625098800_21d72432",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624096681_b8a60402",
+    "startedUtc": "2026-06-25T09:00:00Z",
+    "endedUtc": "2026-06-25T18:00:00Z",
+    "createdUtc": "2026-06-25T09:00:00Z",
+    "updatedUtc": "2026-06-25T18:00:00Z"
+  },
+  {
+    "id": "shift_20260628184742_9249ee3a",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624096681_b8a60402",
+    "startedUtc": "2026-06-28T06:00:00Z",
+    "endedUtc": "2026-06-28T16:00:00Z",
+    "createdUtc": "2026-06-28T06:00:00Z",
+    "updatedUtc": "2026-06-28T15:00:00Z"
+  },
+  {
+    "id": "shift_20260626203694_663166a7",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624096681_b8a60402",
+    "startedUtc": "2026-06-26T06:00:00Z",
+    "endedUtc": "2026-06-26T15:00:00Z",
+    "createdUtc": "2026-06-26T06:00:00Z",
+    "updatedUtc": "2026-06-26T15:00:00Z"
+  },
+  {
+    "id": "shift_20260628095355_7b1dbca3",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623169724_6793cb09",
+    "startedUtc": "2026-06-28T07:00:00Z",
+    "endedUtc": "2026-06-28T17:00:00Z",
+    "createdUtc": "2026-06-28T07:00:00Z",
+    "updatedUtc": "2026-06-28T16:00:00Z"
+  },
+  {
+    "id": "shift_20260630187889_65339cf0",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623169724_6793cb09",
+    "startedUtc": "2026-06-30T07:00:00Z",
+    "endedUtc": "2026-06-30T17:00:00Z",
+    "createdUtc": "2026-06-30T07:00:00Z",
+    "updatedUtc": "2026-06-30T16:00:00Z"
+  },
+  {
+    "id": "shift_20260704207106_9db1f7f9",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623169724_6793cb09",
+    "startedUtc": "2026-07-04T07:00:00Z",
+    "endedUtc": "2026-07-04T17:00:00Z",
+    "createdUtc": "2026-07-04T07:00:00Z",
+    "updatedUtc": "2026-07-04T16:00:00Z"
+  },
+  {
+    "id": "shift_20260625210999_16efacdf",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "startedUtc": "2026-06-25T08:00:00Z",
+    "endedUtc": "2026-06-25T16:00:00Z",
+    "createdUtc": "2026-06-25T08:00:00Z",
+    "updatedUtc": "2026-06-25T17:00:00Z"
+  },
+  {
+    "id": "shift_20260623171028_5d822e3a",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "startedUtc": "2026-06-23T09:00:00Z",
+    "endedUtc": "2026-06-23T18:00:00Z",
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T18:00:00Z"
+  },
+  {
+    "id": "shift_20260626144079_5832c8de",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "startedUtc": "2026-06-26T07:00:00Z",
+    "endedUtc": "2026-06-26T17:00:00Z",
+    "createdUtc": "2026-06-26T07:00:00Z",
+    "updatedUtc": "2026-06-26T16:00:00Z"
+  },
+  {
+    "id": "shift_20260628139906_2b54500d",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "startedUtc": "2026-06-28T06:00:00Z",
+    "endedUtc": "2026-06-28T15:00:00Z",
+    "createdUtc": "2026-06-28T06:00:00Z",
+    "updatedUtc": "2026-06-28T15:00:00Z"
+  },
+  {
+    "id": "shift_20260701100892_c1fad753",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624200151_a36884f5",
+    "startedUtc": "2026-07-01T08:00:00Z",
+    "endedUtc": "2026-07-01T18:00:00Z",
+    "createdUtc": "2026-07-01T08:00:00Z",
+    "updatedUtc": "2026-07-01T17:00:00Z"
+  },
+  {
+    "id": "shift_20260624089457_bd5538c7",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624200151_a36884f5",
+    "startedUtc": "2026-06-24T06:00:00Z",
+    "endedUtc": "2026-06-24T14:00:00Z",
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T15:00:00Z"
+  },
+  {
+    "id": "shift_20260629222792_ed3e2846",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624200151_a36884f5",
+    "startedUtc": "2026-06-29T07:00:00Z",
+    "endedUtc": "2026-06-29T15:00:00Z",
+    "createdUtc": "2026-06-29T07:00:00Z",
+    "updatedUtc": "2026-06-29T16:00:00Z"
+  },
+  {
+    "id": "shift_20260622063600_57e0a1f1",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624200151_a36884f5",
+    "startedUtc": "2026-06-22T08:00:00Z",
+    "endedUtc": "2026-06-22T18:00:00Z",
+    "createdUtc": "2026-06-22T08:00:00Z",
+    "updatedUtc": "2026-06-22T17:00:00Z"
+  },
+  {
+    "id": "shift_20260625139984_73373c2f",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624200151_a36884f5",
+    "startedUtc": "2026-06-25T06:00:00Z",
+    "endedUtc": "2026-06-25T15:00:00Z",
+    "createdUtc": "2026-06-25T06:00:00Z",
+    "updatedUtc": "2026-06-25T15:00:00Z"
+  },
+  {
+    "id": "shift_20260630146999_3581a632",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624200151_a36884f5",
+    "startedUtc": "2026-06-30T06:00:00Z",
+    "endedUtc": "2026-06-30T16:00:00Z",
+    "createdUtc": "2026-06-30T06:00:00Z",
+    "updatedUtc": "2026-06-30T15:00:00Z"
+  },
+  {
+    "id": "shift_20260625223326_badc4599",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623104560_d73418fe",
+    "startedUtc": "2026-06-25T09:00:00Z",
+    "endedUtc": "2026-06-25T17:00:00Z",
+    "createdUtc": "2026-06-25T09:00:00Z",
+    "updatedUtc": "2026-06-25T18:00:00Z"
+  },
+  {
+    "id": "shift_20260630158725_953fcfd4",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623104560_d73418fe",
+    "startedUtc": "2026-06-30T06:00:00Z",
+    "endedUtc": "2026-06-30T16:00:00Z",
+    "createdUtc": "2026-06-30T06:00:00Z",
+    "updatedUtc": "2026-06-30T15:00:00Z"
+  },
+  {
+    "id": "shift_20260703126966_2b9a118e",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623104560_d73418fe",
+    "startedUtc": "2026-07-03T06:00:00Z",
+    "endedUtc": "2026-07-03T14:00:00Z",
+    "createdUtc": "2026-07-03T06:00:00Z",
+    "updatedUtc": "2026-07-03T15:00:00Z"
+  },
+  {
+    "id": "shift_20260626112611_ca0841de",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623104560_d73418fe",
+    "startedUtc": "2026-06-26T08:00:00Z",
+    "endedUtc": "2026-06-26T18:00:00Z",
+    "createdUtc": "2026-06-26T08:00:00Z",
+    "updatedUtc": "2026-06-26T17:00:00Z"
+  },
+  {
+    "id": "shift_20260622233112_457498ca",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "startedUtc": "2026-06-22T09:00:00Z",
+    "endedUtc": "2026-06-22T19:00:00Z",
+    "createdUtc": "2026-06-22T09:00:00Z",
+    "updatedUtc": "2026-06-22T18:00:00Z"
+  },
+  {
+    "id": "shift_20260629088283_04e25132",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "startedUtc": "2026-06-29T08:00:00Z",
+    "endedUtc": "2026-06-29T17:00:00Z",
+    "createdUtc": "2026-06-29T08:00:00Z",
+    "updatedUtc": "2026-06-29T17:00:00Z"
+  },
+  {
+    "id": "shift_20260702120599_fad3b44c",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "startedUtc": "2026-07-02T09:00:00Z",
+    "endedUtc": "2026-07-02T18:00:00Z",
+    "createdUtc": "2026-07-02T09:00:00Z",
+    "updatedUtc": "2026-07-02T18:00:00Z"
+  },
+  {
+    "id": "shift_20260704142694_7c12d198",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "startedUtc": "2026-07-04T06:00:00Z",
+    "endedUtc": "2026-07-04T16:00:00Z",
+    "createdUtc": "2026-07-04T06:00:00Z",
+    "updatedUtc": "2026-07-04T15:00:00Z"
+  },
+  {
+    "id": "shift_20260623108868_32e97c2d",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "startedUtc": "2026-06-23T06:00:00Z",
+    "endedUtc": "2026-06-23T16:00:00Z",
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T15:00:00Z"
+  },
+  {
+    "id": "shift_20260630188432_64b5d9a5",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624147984_a7890770",
+    "startedUtc": "2026-06-30T08:00:00Z",
+    "endedUtc": "2026-06-30T18:00:00Z",
+    "createdUtc": "2026-06-30T08:00:00Z",
+    "updatedUtc": "2026-06-30T17:00:00Z"
+  },
+  {
+    "id": "shift_20260703064816_58c69158",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624147984_a7890770",
+    "startedUtc": "2026-07-03T07:00:00Z",
+    "endedUtc": "2026-07-03T17:00:00Z",
+    "createdUtc": "2026-07-03T07:00:00Z",
+    "updatedUtc": "2026-07-03T16:00:00Z"
+  },
+  {
+    "id": "shift_20260622153160_a00f230b",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624147984_a7890770",
+    "startedUtc": "2026-06-22T08:00:00Z",
+    "endedUtc": "2026-06-22T17:00:00Z",
+    "createdUtc": "2026-06-22T08:00:00Z",
+    "updatedUtc": "2026-06-22T17:00:00Z"
+  },
+  {
+    "id": "shift_20260702191400_469ff562",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624147984_a7890770",
+    "startedUtc": "2026-07-02T07:00:00Z",
+    "endedUtc": "2026-07-02T15:00:00Z",
+    "createdUtc": "2026-07-02T07:00:00Z",
+    "updatedUtc": "2026-07-02T16:00:00Z"
+  },
+  {
+    "id": "shift_20260625161494_e3f16406",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624147984_a7890770",
+    "startedUtc": "2026-06-25T08:00:00Z",
+    "endedUtc": "2026-06-25T16:00:00Z",
+    "createdUtc": "2026-06-25T08:00:00Z",
+    "updatedUtc": "2026-06-25T17:00:00Z"
+  },
+  {
+    "id": "shift_20260626119135_26d658fb",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624147984_a7890770",
+    "startedUtc": "2026-06-26T08:00:00Z",
+    "endedUtc": "2026-06-26T17:00:00Z",
+    "createdUtc": "2026-06-26T08:00:00Z",
+    "updatedUtc": "2026-06-26T17:00:00Z"
+  },
+  {
+    "id": "shift_20260705083014_bada0c94",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260624200151_a36884f5",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  },
+  {
+    "id": "shift_20260705160193_854dc3bf",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  },
+  {
+    "id": "shift_20260705220549_df695d17",
+    "tenantId": "garuda-cargo",
+    "driverId": "driver_20260623169724_6793cb09",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  }
+]

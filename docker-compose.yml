@@ -1,0 +1,14 @@
+version: "3.8"
+
+# MongoDB, required to run the API or the test suite.
+services:
+  mongodb:
+    image: mongo:7
+    container_name: parcelflow-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - parcelflow-mongo-data:/data/db
+
+volumes:
+  parcelflow-mongo-data:

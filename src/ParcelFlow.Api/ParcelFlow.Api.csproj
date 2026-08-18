@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ParcelFlow.Services\ParcelFlow.Services.csproj" />
+    <ProjectReference Include="..\ParcelFlow.Storage\ParcelFlow.Storage.csproj" />
+    <ProjectReference Include="..\ParcelFlow.Workers\ParcelFlow.Workers.csproj" />
+  </ItemGroup>
+
+</Project>

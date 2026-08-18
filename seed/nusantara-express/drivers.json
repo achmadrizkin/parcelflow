@@ -1,0 +1,134 @@
+[
+  {
+    "id": "driver_20260624089184_06671ad1",
+    "tenantId": "nusantara-express",
+    "name": "Budi Santoso",
+    "phone": "+62-812-5614226",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260622086868_ad3c2d6d",
+    "tenantId": "nusantara-express",
+    "name": "Agus Wijaya",
+    "phone": "+62-812-2458591",
+    "vehicleType": "car",
+    "capacity": 12,
+    "isActive": true,
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T06:00:00Z"
+  },
+  {
+    "id": "driver_20260622067811_17fc695a",
+    "tenantId": "nusantara-express",
+    "name": "Dewi Lestari",
+    "phone": "+62-812-4668136",
+    "vehicleType": "motorbike",
+    "capacity": 15,
+    "isActive": true,
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T06:00:00Z"
+  },
+  {
+    "id": "driver_20260624066956_8fadc1a6",
+    "tenantId": "nusantara-express",
+    "name": "Rizki Pratama",
+    "phone": "+62-812-4335942",
+    "vehicleType": "car",
+    "capacity": 12,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260622177757_96da1dac",
+    "tenantId": "nusantara-express",
+    "name": "Siti Rahayu",
+    "phone": "+62-812-5667265",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T06:00:00Z"
+  },
+  {
+    "id": "driver_20260624170785_571aa876",
+    "tenantId": "nusantara-express",
+    "name": "Andi Saputra",
+    "phone": "+62-812-5661907",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623086793_17be3111",
+    "tenantId": "nusantara-express",
+    "name": "Fitri Handayani",
+    "phone": "+62-812-7374122",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623218263_43b7a3a6",
+    "tenantId": "nusantara-express",
+    "name": "Joko Susilo",
+    "phone": "+62-812-1728977",
+    "vehicleType": "van",
+    "capacity": 15,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260622159230_142c3fe8",
+    "tenantId": "nusantara-express",
+    "name": "Rina Marlina",
+    "phone": "+62-812-5918715",
+    "vehicleType": "car",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T06:00:00Z"
+  },
+  {
+    "id": "driver_20260624110407_b45ed1f0",
+    "tenantId": "nusantara-express",
+    "name": "Hendra Gunawan",
+    "phone": "+62-812-2166941",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623080916_daf61a26",
+    "tenantId": "nusantara-express",
+    "name": "Yusuf Maulana",
+    "phone": "+62-812-4905582",
+    "vehicleType": "motorbike",
+    "capacity": 12,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623178858_a2bc372f",
+    "tenantId": "nusantara-express",
+    "name": "Putri Anggraini",
+    "phone": "+62-812-7120868",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": false,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "driver_20260623193367_3967e60a",
+    "tenantId": "manila-swift",
+    "name": "Jose Ramos",
+    "phone": "+63-917-3036124",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260622189504_06ba8cd3",
+    "tenantId": "manila-swift",
+    "name": "Maria Santos",
+    "phone": "+63-917-7054838",
+    "vehicleType": "car",
+    "capacity": 15,
+    "isActive": true,
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623182527_cdbcc653",
+    "tenantId": "manila-swift",
+    "name": "Juan Dela Cruz",
+    "phone": "+63-917-3177199",
+    "vehicleType": "car",
+    "capacity": 8,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260622141078_65edcfe3",
+    "tenantId": "manila-swift",
+    "name": "Ana Reyes",
+    "phone": "+63-917-9030667",
+    "vehicleType": "car",
+    "capacity": 12,
+    "isActive": true,
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623210706_12e153a6",
+    "tenantId": "manila-swift",
+    "name": "Pedro Garcia",
+    "phone": "+63-917-3102634",
+    "vehicleType": "motorbike",
+    "capacity": 8,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623182115_ae1b9f69",
+    "tenantId": "manila-swift",
+    "name": "Liza Mendoza",
+    "phone": "+63-917-9679860",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260624227718_96792482",
+    "tenantId": "manila-swift",
+    "name": "Carlo Aquino",
+    "phone": "+63-917-4052834",
+    "vehicleType": "motorbike",
+    "capacity": 12,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260624074526_d4d60735",
+    "tenantId": "manila-swift",
+    "name": "Grace Villanueva",
+    "phone": "+63-917-3083077",
+    "vehicleType": "car",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623103163_2976aab2",
+    "tenantId": "manila-swift",
+    "name": "Ramon Bautista",
+    "phone": "+63-917-6413349",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260624134461_d88f1c94",
+    "tenantId": "manila-swift",
+    "name": "Cecilia Torres",
+    "phone": "+63-917-2323049",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": false,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  }
+]

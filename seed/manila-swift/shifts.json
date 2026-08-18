@@ -1,0 +1,425 @@
+[
+  {
+    "id": "shift_20260630200381_afe3af13",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623193367_3967e60a",
+    "startedUtc": "2026-06-30T09:00:00Z",
+    "endedUtc": "2026-06-30T18:00:00Z",
+    "createdUtc": "2026-06-30T09:00:00Z",
+    "updatedUtc": "2026-06-30T18:00:00Z"
+  },
+  {
+    "id": "shift_20260622184849_4c819260",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623193367_3967e60a",
+    "startedUtc": "2026-06-22T07:00:00Z",
+    "endedUtc": "2026-06-22T15:00:00Z",
+    "createdUtc": "2026-06-22T07:00:00Z",
+    "updatedUtc": "2026-06-22T16:00:00Z"
+  },
+  {
+    "id": "shift_20260628069103_8089b8c5",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623193367_3967e60a",
+    "startedUtc": "2026-06-28T09:00:00Z",
+    "endedUtc": "2026-06-28T19:00:00Z",
+    "createdUtc": "2026-06-28T09:00:00Z",
+    "updatedUtc": "2026-06-28T18:00:00Z"
+  },
+  {
+    "id": "shift_20260704091531_f3025d16",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623193367_3967e60a",
+    "startedUtc": "2026-07-04T07:00:00Z",
+    "endedUtc": "2026-07-04T16:00:00Z",
+    "createdUtc": "2026-07-04T07:00:00Z",
+    "updatedUtc": "2026-07-04T16:00:00Z"
+  },
+  {
+    "id": "shift_20260624170985_140ff589",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "startedUtc": "2026-06-24T06:00:00Z",
+    "endedUtc": "2026-06-24T16:00:00Z",
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T15:00:00Z"
+  },
+  {
+    "id": "shift_20260625112931_ff4d0930",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "startedUtc": "2026-06-25T09:00:00Z",
+    "endedUtc": "2026-06-25T19:00:00Z",
+    "createdUtc": "2026-06-25T09:00:00Z",
+    "updatedUtc": "2026-06-25T18:00:00Z"
+  },
+  {
+    "id": "shift_20260703215988_4204d733",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "startedUtc": "2026-07-03T07:00:00Z",
+    "endedUtc": "2026-07-03T16:00:00Z",
+    "createdUtc": "2026-07-03T07:00:00Z",
+    "updatedUtc": "2026-07-03T16:00:00Z"
+  },
+  {
+    "id": "shift_20260704082813_635a775d",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "startedUtc": "2026-07-04T06:00:00Z",
+    "endedUtc": "2026-07-04T16:00:00Z",
+    "createdUtc": "2026-07-04T06:00:00Z",
+    "updatedUtc": "2026-07-04T15:00:00Z"
+  },
+  {
+    "id": "shift_20260630089496_6a18e5af",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "startedUtc": "2026-06-30T09:00:00Z",
+    "endedUtc": "2026-06-30T17:00:00Z",
+    "createdUtc": "2026-06-30T09:00:00Z",
+    "updatedUtc": "2026-06-30T18:00:00Z"
+  },
+  {
+    "id": "shift_20260627208529_9682d9ff",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "startedUtc": "2026-06-27T07:00:00Z",
+    "endedUtc": "2026-06-27T17:00:00Z",
+    "createdUtc": "2026-06-27T07:00:00Z",
+    "updatedUtc": "2026-06-27T16:00:00Z"
+  },
+  {
+    "id": "shift_20260626087691_900c0af7",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "startedUtc": "2026-06-26T06:00:00Z",
+    "endedUtc": "2026-06-26T14:00:00Z",
+    "createdUtc": "2026-06-26T06:00:00Z",
+    "updatedUtc": "2026-06-26T15:00:00Z"
+  },
+  {
+    "id": "shift_20260704200413_e1509425",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "startedUtc": "2026-07-04T08:00:00Z",
+    "endedUtc": "2026-07-04T17:00:00Z",
+    "createdUtc": "2026-07-04T08:00:00Z",
+    "updatedUtc": "2026-07-04T17:00:00Z"
+  },
+  {
+    "id": "shift_20260629129241_620f230b",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "startedUtc": "2026-06-29T09:00:00Z",
+    "endedUtc": "2026-06-29T19:00:00Z",
+    "createdUtc": "2026-06-29T09:00:00Z",
+    "updatedUtc": "2026-06-29T18:00:00Z"
+  },
+  {
+    "id": "shift_20260622209952_9be4f19f",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "startedUtc": "2026-06-22T09:00:00Z",
+    "endedUtc": "2026-06-22T18:00:00Z",
+    "createdUtc": "2026-06-22T09:00:00Z",
+    "updatedUtc": "2026-06-22T18:00:00Z"
+  },
+  {
+    "id": "shift_20260624222069_9bd0d4c7",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "startedUtc": "2026-06-24T07:00:00Z",
+    "endedUtc": "2026-06-24T17:00:00Z",
+    "createdUtc": "2026-06-24T07:00:00Z",
+    "updatedUtc": "2026-06-24T16:00:00Z"
+  },
+  {
+    "id": "shift_20260626070166_6552ac53",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "startedUtc": "2026-06-26T09:00:00Z",
+    "endedUtc": "2026-06-26T18:00:00Z",
+    "createdUtc": "2026-06-26T09:00:00Z",
+    "updatedUtc": "2026-06-26T18:00:00Z"
+  },
+  {
+    "id": "shift_20260628072921_bee975da",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "startedUtc": "2026-06-28T07:00:00Z",
+    "endedUtc": "2026-06-28T16:00:00Z",
+    "createdUtc": "2026-06-28T07:00:00Z",
+    "updatedUtc": "2026-06-28T16:00:00Z"
+  },
+  {
+    "id": "shift_20260627188875_dbb54645",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623210706_12e153a6",
+    "startedUtc": "2026-06-27T08:00:00Z",
+    "endedUtc": "2026-06-27T18:00:00Z",
+    "createdUtc": "2026-06-27T08:00:00Z",
+    "updatedUtc": "2026-06-27T17:00:00Z"
+  },
+  {
+    "id": "shift_20260622119757_226716e3",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623210706_12e153a6",
+    "startedUtc": "2026-06-22T06:00:00Z",
+    "endedUtc": "2026-06-22T15:00:00Z",
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T15:00:00Z"
+  },
+  {
+    "id": "shift_20260704144113_44f8b53c",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623210706_12e153a6",
+    "startedUtc": "2026-07-04T09:00:00Z",
+    "endedUtc": "2026-07-04T19:00:00Z",
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T18:00:00Z"
+  },
+  {
+    "id": "shift_20260626218591_a543148e",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623210706_12e153a6",
+    "startedUtc": "2026-06-26T09:00:00Z",
+    "endedUtc": "2026-06-26T17:00:00Z",
+    "createdUtc": "2026-06-26T09:00:00Z",
+    "updatedUtc": "2026-06-26T18:00:00Z"
+  },
+  {
+    "id": "shift_20260701175793_361db014",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623210706_12e153a6",
+    "startedUtc": "2026-07-01T07:00:00Z",
+    "endedUtc": "2026-07-01T16:00:00Z",
+    "createdUtc": "2026-07-01T07:00:00Z",
+    "updatedUtc": "2026-07-01T16:00:00Z"
+  },
+  {
+    "id": "shift_20260704141559_b5a6571c",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "startedUtc": "2026-07-04T06:00:00Z",
+    "endedUtc": "2026-07-04T16:00:00Z",
+    "createdUtc": "2026-07-04T06:00:00Z",
+    "updatedUtc": "2026-07-04T15:00:00Z"
+  },
+  {
+    "id": "shift_20260630095559_c7cfeca8",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "startedUtc": "2026-06-30T09:00:00Z",
+    "endedUtc": "2026-06-30T19:00:00Z",
+    "createdUtc": "2026-06-30T09:00:00Z",
+    "updatedUtc": "2026-06-30T18:00:00Z"
+  },
+  {
+    "id": "shift_20260627105544_3158f1fb",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "startedUtc": "2026-06-27T06:00:00Z",
+    "endedUtc": "2026-06-27T14:00:00Z",
+    "createdUtc": "2026-06-27T06:00:00Z",
+    "updatedUtc": "2026-06-27T15:00:00Z"
+  },
+  {
+    "id": "shift_20260622125402_08775804",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "startedUtc": "2026-06-22T06:00:00Z",
+    "endedUtc": "2026-06-22T15:00:00Z",
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T15:00:00Z"
+  },
+  {
+    "id": "shift_20260703154470_b462e3e8",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "startedUtc": "2026-07-03T06:00:00Z",
+    "endedUtc": "2026-07-03T14:00:00Z",
+    "createdUtc": "2026-07-03T06:00:00Z",
+    "updatedUtc": "2026-07-03T15:00:00Z"
+  },
+  {
+    "id": "shift_20260624156561_d2d14ef5",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "startedUtc": "2026-06-24T08:00:00Z",
+    "endedUtc": "2026-06-24T17:00:00Z",
+    "createdUtc": "2026-06-24T08:00:00Z",
+    "updatedUtc": "2026-06-24T17:00:00Z"
+  },
+  {
+    "id": "shift_20260702215724_7233d5af",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624227718_96792482",
+    "startedUtc": "2026-07-02T09:00:00Z",
+    "endedUtc": "2026-07-02T17:00:00Z",
+    "createdUtc": "2026-07-02T09:00:00Z",
+    "updatedUtc": "2026-07-02T18:00:00Z"
+  },
+  {
+    "id": "shift_20260623213847_8d2434f9",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624227718_96792482",
+    "startedUtc": "2026-06-23T09:00:00Z",
+    "endedUtc": "2026-06-23T18:00:00Z",
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T18:00:00Z"
+  },
+  {
+    "id": "shift_20260704102864_d6707a21",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624227718_96792482",
+    "startedUtc": "2026-07-04T08:00:00Z",
+    "endedUtc": "2026-07-04T17:00:00Z",
+    "createdUtc": "2026-07-04T08:00:00Z",
+    "updatedUtc": "2026-07-04T17:00:00Z"
+  },
+  {
+    "id": "shift_20260622134729_0706fec2",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624227718_96792482",
+    "startedUtc": "2026-06-22T06:00:00Z",
+    "endedUtc": "2026-06-22T15:00:00Z",
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T15:00:00Z"
+  },
+  {
+    "id": "shift_20260625102705_da9408c0",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624227718_96792482",
+    "startedUtc": "2026-06-25T06:00:00Z",
+    "endedUtc": "2026-06-25T16:00:00Z",
+    "createdUtc": "2026-06-25T06:00:00Z",
+    "updatedUtc": "2026-06-25T15:00:00Z"
+  },
+  {
+    "id": "shift_20260627118025_a5bab050",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624227718_96792482",
+    "startedUtc": "2026-06-27T07:00:00Z",
+    "endedUtc": "2026-06-27T15:00:00Z",
+    "createdUtc": "2026-06-27T07:00:00Z",
+    "updatedUtc": "2026-06-27T16:00:00Z"
+  },
+  {
+    "id": "shift_20260626062332_795e6f2b",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624074526_d4d60735",
+    "startedUtc": "2026-06-26T06:00:00Z",
+    "endedUtc": "2026-06-26T14:00:00Z",
+    "createdUtc": "2026-06-26T06:00:00Z",
+    "updatedUtc": "2026-06-26T15:00:00Z"
+  },
+  {
+    "id": "shift_20260702217585_cd0579e2",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624074526_d4d60735",
+    "startedUtc": "2026-07-02T07:00:00Z",
+    "endedUtc": "2026-07-02T15:00:00Z",
+    "createdUtc": "2026-07-02T07:00:00Z",
+    "updatedUtc": "2026-07-02T16:00:00Z"
+  },
+  {
+    "id": "shift_20260628126162_9bbc6cbc",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624074526_d4d60735",
+    "startedUtc": "2026-06-28T07:00:00Z",
+    "endedUtc": "2026-06-28T16:00:00Z",
+    "createdUtc": "2026-06-28T07:00:00Z",
+    "updatedUtc": "2026-06-28T16:00:00Z"
+  },
+  {
+    "id": "shift_20260630171098_e53e5f4c",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260624074526_d4d60735",
+    "startedUtc": "2026-06-30T08:00:00Z",
+    "endedUtc": "2026-06-30T17:00:00Z",
+    "createdUtc": "2026-06-30T08:00:00Z",
+    "updatedUtc": "2026-06-30T17:00:00Z"
+  },
+  {
+    "id": "shift_20260629213219_1a312044",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623103163_2976aab2",
+    "startedUtc": "2026-06-29T09:00:00Z",
+    "endedUtc": "2026-06-29T17:00:00Z",
+    "createdUtc": "2026-06-29T09:00:00Z",
+    "updatedUtc": "2026-06-29T18:00:00Z"
+  },
+  {
+    "id": "shift_20260626207182_a5b83693",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623103163_2976aab2",
+    "startedUtc": "2026-06-26T08:00:00Z",
+    "endedUtc": "2026-06-26T18:00:00Z",
+    "createdUtc": "2026-06-26T08:00:00Z",
+    "updatedUtc": "2026-06-26T17:00:00Z"
+  },
+  {
+    "id": "shift_20260625138243_af35b30b",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623103163_2976aab2",
+    "startedUtc": "2026-06-25T08:00:00Z",
+    "endedUtc": "2026-06-25T16:00:00Z",
+    "createdUtc": "2026-06-25T08:00:00Z",
+    "updatedUtc": "2026-06-25T17:00:00Z"
+  },
+  {
+    "id": "shift_20260704076734_5616af7e",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623103163_2976aab2",
+    "startedUtc": "2026-07-04T09:00:00Z",
+    "endedUtc": "2026-07-04T18:00:00Z",
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T18:00:00Z"
+  },
+  {
+    "id": "shift_20260703132583_42da8609",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623103163_2976aab2",
+    "startedUtc": "2026-07-03T08:00:00Z",
+    "endedUtc": "2026-07-03T18:00:00Z",
+    "createdUtc": "2026-07-03T08:00:00Z",
+    "updatedUtc": "2026-07-03T17:00:00Z"
+  },
+  {
+    "id": "shift_20260705122993_e651e3e1",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623210706_12e153a6",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  },
+  {
+    "id": "shift_20260705074883_ce30a61d",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  },
+  {
+    "id": "shift_20260705217295_6772fe9f",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  },
+  {
+    "id": "shift_20260705233154_51d05ef3",
+    "tenantId": "manila-swift",
+    "driverId": "driver_20260623103163_2976aab2",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  }
+]

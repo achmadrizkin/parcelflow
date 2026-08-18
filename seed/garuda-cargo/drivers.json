@@ -1,0 +1,90 @@
+[
+  {
+    "id": "driver_20260624096681_b8a60402",
+    "tenantId": "garuda-cargo",
+    "name": "Ahmad Fauzi",
+    "phone": "+62-853-1427068",
+    "vehicleType": "van",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623169724_6793cb09",
+    "tenantId": "garuda-cargo",
+    "name": "Bayu Nugroho",
+    "phone": "+62-853-7514172",
+    "vehicleType": "motorbike",
+    "capacity": 15,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260624209957_d0e656e5",
+    "tenantId": "garuda-cargo",
+    "name": "Citra Dewi",
+    "phone": "+62-853-4186247",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260624200151_a36884f5",
+    "tenantId": "garuda-cargo",
+    "name": "Dian Permata",
+    "phone": "+62-853-8981512",
+    "vehicleType": "motorbike",
+    "capacity": 15,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623104560_d73418fe",
+    "tenantId": "garuda-cargo",
+    "name": "Eko Prasetyo",
+    "phone": "+62-853-4038955",
+    "vehicleType": "motorbike",
+    "capacity": 8,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260623093539_bdacdc5e",
+    "tenantId": "garuda-cargo",
+    "name": "Farhan Hakim",
+    "phone": "+62-853-5339457",
+    "vehicleType": "car",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T06:00:00Z"
+  },
+  {
+    "id": "driver_20260624147984_a7890770",
+    "tenantId": "garuda-cargo",
+    "name": "Gita Savitri",
+    "phone": "+62-853-2498202",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": true,
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T06:00:00Z"
+  },
+  {
+    "id": "driver_20260622140500_6ba4170b",
+    "tenantId": "garuda-cargo",
+    "name": "Hasan Basri",
+    "phone": "+62-853-6558579",
+    "vehicleType": "motorbike",
+    "capacity": 10,
+    "isActive": false,
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T06:00:00Z"
+  }
+]

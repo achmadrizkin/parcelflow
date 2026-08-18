@@ -1,0 +1,3659 @@
+[
+  {
+    "id": "task_20260626168293_0dd70158",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260626090875_787515b9",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T10:00:00Z",
+    "pickedUpUtc": "2026-06-26T11:00:00Z",
+    "deliveredUtc": "2026-06-26T13:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T09:00:00Z",
+    "updatedUtc": "2026-06-26T13:00:00Z"
+  },
+  {
+    "id": "task_20260625075207_0134e76b",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260625167267_fcb896bb",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T09:00:00Z",
+    "pickedUpUtc": "2026-06-25T10:00:00Z",
+    "deliveredUtc": "2026-06-25T12:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T08:00:00Z",
+    "updatedUtc": "2026-06-25T12:00:00Z"
+  },
+  {
+    "id": "task_20260701199927_330ccff5",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701188339_c90394ea",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T08:00:00Z",
+    "pickedUpUtc": "2026-07-01T09:00:00Z",
+    "deliveredUtc": "2026-07-01T11:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T08:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T07:00:00Z",
+    "updatedUtc": "2026-07-01T11:00:00Z"
+  },
+  {
+    "id": "task_20260627071984_4c56fb8f",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260627109958_049626ba",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T11:00:00Z",
+    "pickedUpUtc": "2026-06-27T12:00:00Z",
+    "deliveredUtc": "2026-06-27T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T10:00:00Z",
+    "updatedUtc": "2026-06-27T14:00:00Z"
+  },
+  {
+    "id": "task_20260628065744_96f61c09",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628095072_57bd56c9",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-28T12:00:00Z",
+    "pickedUpUtc": "2026-06-28T13:00:00Z",
+    "deliveredUtc": "2026-06-28T17:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-28T15:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-28T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-28T17:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T11:00:00Z",
+    "updatedUtc": "2026-06-28T17:00:00Z"
+  },
+  {
+    "id": "task_20260628159681_1fa3ed1f",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628127053_c5709e30",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T12:00:00Z",
+    "pickedUpUtc": "2026-06-28T13:00:00Z",
+    "deliveredUtc": "2026-06-28T15:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-28T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T11:00:00Z",
+    "updatedUtc": "2026-06-28T15:00:00Z"
+  },
+  {
+    "id": "task_20260625087502_82f73861",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260625225232_0261c87a",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T12:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-25T11:00:00Z",
+    "updatedUtc": "2026-06-25T13:00:00Z"
+  },
+  {
+    "id": "task_20260626070329_8c52d271",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260626087856_7f6bd3c6",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T07:00:00Z",
+    "pickedUpUtc": "2026-06-26T08:00:00Z",
+    "deliveredUtc": "2026-06-26T10:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T07:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T06:00:00Z",
+    "updatedUtc": "2026-06-26T10:00:00Z"
+  },
+  {
+    "id": "task_20260627086552_e79f9f3d",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260627060717_03438b64",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-27T08:00:00Z",
+    "pickedUpUtc": "2026-06-27T09:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T08:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Access to building denied"
+      }
+    ],
+    "createdUtc": "2026-06-27T07:00:00Z",
+    "updatedUtc": "2026-06-27T11:00:00Z"
+  },
+  {
+    "id": "task_20260626072029_0279e2ab",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260626181707_0cd20e43",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-26T09:00:00Z",
+    "pickedUpUtc": "2026-06-26T10:00:00Z",
+    "deliveredUtc": "2026-06-26T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-26T12:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-26T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T08:00:00Z",
+    "updatedUtc": "2026-06-26T14:00:00Z"
+  },
+  {
+    "id": "task_20260627185369_ccc62fed",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260627223002_44afecb7",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T10:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-27T09:00:00Z",
+    "updatedUtc": "2026-06-27T11:00:00Z"
+  },
+  {
+    "id": "task_20260704159549_c7774fae",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704089637_21ec4754",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T08:00:00Z",
+    "pickedUpUtc": "2026-07-04T09:00:00Z",
+    "deliveredUtc": "2026-07-04T11:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T08:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T07:00:00Z",
+    "updatedUtc": "2026-07-04T11:00:00Z"
+  },
+  {
+    "id": "task_20260629235595_df865633",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260629089605_e3395b1a",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-29T09:00:00Z",
+    "updatedUtc": "2026-06-29T09:00:00Z"
+  },
+  {
+    "id": "task_20260627206366_e45e2ad0",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260627197128_b0309aaf",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-27T11:00:00Z",
+    "pickedUpUtc": "2026-06-27T12:00:00Z",
+    "deliveredUtc": "2026-06-27T16:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-27T14:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-27T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T10:00:00Z",
+    "updatedUtc": "2026-06-27T16:00:00Z"
+  },
+  {
+    "id": "task_20260705121603_142e3df0",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260705103359_132a5e58",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T10:00:00Z",
+    "pickedUpUtc": "2026-07-05T11:00:00Z",
+    "deliveredUtc": "2026-07-05T13:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T10:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T09:00:00Z",
+    "updatedUtc": "2026-07-05T13:00:00Z"
+  },
+  {
+    "id": "task_20260623218388_f692641a",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260623177196_50e96888",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T10:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T11:00:00Z"
+  },
+  {
+    "id": "task_20260630155235_b7461b72",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260630114224_a7939a2e",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-30T11:00:00Z",
+    "pickedUpUtc": "2026-06-30T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-30T14:00:00Z",
+        "reason": "Recipient not at address"
+      }
+    ],
+    "createdUtc": "2026-06-30T10:00:00Z",
+    "updatedUtc": "2026-06-30T14:00:00Z"
+  },
+  {
+    "id": "task_20260704167272_1b61d453",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704118129_008ffab9",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T12:00:00Z",
+    "pickedUpUtc": "2026-07-04T13:00:00Z",
+    "deliveredUtc": "2026-07-04T15:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T11:00:00Z",
+    "updatedUtc": "2026-07-04T15:00:00Z"
+  },
+  {
+    "id": "task_20260623178097_75175f39",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260623116515_7500f785",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 4,
+    "attemptCount": 3,
+    "assignedUtc": "2026-06-23T10:00:00Z",
+    "pickedUpUtc": "2026-06-23T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-23T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-23T15:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-23T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-23T17:00:00Z",
+        "reason": "Access to building denied"
+      }
+    ],
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T17:00:00Z"
+  },
+  {
+    "id": "task_20260622232365_99bd6240",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260622072732_8da03d88",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T11:00:00Z",
+    "pickedUpUtc": "2026-06-22T12:00:00Z",
+    "deliveredUtc": "2026-06-22T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T10:00:00Z",
+    "updatedUtc": "2026-06-22T14:00:00Z"
+  },
+  {
+    "id": "task_20260628203604_dc57546d",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628125074_460a6125",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T11:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-28T10:00:00Z",
+    "updatedUtc": "2026-06-28T12:00:00Z"
+  },
+  {
+    "id": "task_20260630152337_8ff19886",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260630116975_336d7786",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 4,
+    "attemptCount": 3,
+    "assignedUtc": "2026-06-30T12:00:00Z",
+    "pickedUpUtc": "2026-06-30T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-30T15:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-30T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-30T17:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-30T18:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-30T19:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      }
+    ],
+    "createdUtc": "2026-06-30T11:00:00Z",
+    "updatedUtc": "2026-06-30T19:00:00Z"
+  },
+  {
+    "id": "task_20260626125683_257c54bc",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260626063347_85d1a1ef",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-26T09:00:00Z",
+    "updatedUtc": "2026-06-26T09:00:00Z"
+  },
+  {
+    "id": "task_20260705207133_638e1388",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260705137369_34396729",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 4,
+    "attemptCount": 3,
+    "assignedUtc": "2026-07-05T07:00:00Z",
+    "pickedUpUtc": "2026-07-05T08:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T07:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T10:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-05T11:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "Access to building denied"
+      }
+    ],
+    "createdUtc": "2026-07-05T06:00:00Z",
+    "updatedUtc": "2026-07-05T14:00:00Z"
+  },
+  {
+    "id": "task_20260628229772_5e244824",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628141960_f740d87c",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T10:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T10:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      }
+    ],
+    "createdUtc": "2026-06-28T09:00:00Z",
+    "updatedUtc": "2026-06-28T10:00:00Z"
+  },
+  {
+    "id": "task_20260701172330_4773e66a",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701218174_324bcc3d",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T11:00:00Z",
+    "pickedUpUtc": "2026-07-01T12:00:00Z",
+    "deliveredUtc": "2026-07-01T14:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T10:00:00Z",
+    "updatedUtc": "2026-07-01T14:00:00Z"
+  },
+  {
+    "id": "task_20260701210123_8cd74c27",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701061479_549fc34c",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-01T09:00:00Z",
+    "pickedUpUtc": "2026-07-01T10:00:00Z",
+    "deliveredUtc": "2026-07-01T14:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T09:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T08:00:00Z",
+    "updatedUtc": "2026-07-01T14:00:00Z"
+  },
+  {
+    "id": "task_20260624136958_37ec07a6",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260624077872_c948384b",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T11:00:00Z",
+    "pickedUpUtc": "2026-06-24T12:00:00Z",
+    "deliveredUtc": "2026-06-24T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T10:00:00Z",
+    "updatedUtc": "2026-06-24T14:00:00Z"
+  },
+  {
+    "id": "task_20260630201619_b9567731",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260630062307_1d5e6aee",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-30T12:00:00Z",
+    "pickedUpUtc": "2026-06-30T13:00:00Z",
+    "deliveredUtc": "2026-06-30T17:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-30T15:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-30T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T17:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T11:00:00Z",
+    "updatedUtc": "2026-06-30T17:00:00Z"
+  },
+  {
+    "id": "task_20260630115255_ab9b153d",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260630176800_7c9f3bc3",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T11:00:00Z",
+    "pickedUpUtc": "2026-06-30T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T13:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T10:00:00Z",
+    "updatedUtc": "2026-06-30T13:00:00Z"
+  },
+  {
+    "id": "task_20260704069931_1667c518",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704171203_d5ee2587",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-04T08:00:00Z",
+    "pickedUpUtc": "2026-07-04T09:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T08:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Address incomplete"
+      }
+    ],
+    "createdUtc": "2026-07-04T07:00:00Z",
+    "updatedUtc": "2026-07-04T11:00:00Z"
+  },
+  {
+    "id": "task_20260704091013_88eae7d4",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704206298_12087e20",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T09:00:00Z",
+    "pickedUpUtc": "2026-07-04T10:00:00Z",
+    "deliveredUtc": "2026-07-04T12:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T09:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T08:00:00Z",
+    "updatedUtc": "2026-07-04T12:00:00Z"
+  },
+  {
+    "id": "task_20260704174734_61a451ff",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704213513_0ba6fe09",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T12:00:00Z",
+    "pickedUpUtc": "2026-07-04T13:00:00Z",
+    "deliveredUtc": "2026-07-04T15:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T11:00:00Z",
+    "updatedUtc": "2026-07-04T15:00:00Z"
+  },
+  {
+    "id": "task_20260629062922_8db3c2c1",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260629199845_38491ecc",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-29T07:00:00Z",
+    "updatedUtc": "2026-06-29T07:00:00Z"
+  },
+  {
+    "id": "task_20260705150138_3634646c",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260705097060_1f8c56e0",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 4,
+    "attemptCount": 3,
+    "assignedUtc": "2026-07-05T11:00:00Z",
+    "pickedUpUtc": "2026-07-05T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T11:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-05T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T16:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-05T17:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T18:00:00Z",
+        "reason": "Address incomplete"
+      }
+    ],
+    "createdUtc": "2026-07-05T10:00:00Z",
+    "updatedUtc": "2026-07-05T18:00:00Z"
+  },
+  {
+    "id": "task_20260625125716_1923cafc",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260625126254_31bf5cf6",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T11:00:00Z",
+    "pickedUpUtc": "2026-06-25T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T10:00:00Z",
+    "updatedUtc": "2026-06-25T13:00:00Z"
+  },
+  {
+    "id": "task_20260703146073_9dc89e1a",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260703187714_f3981e9e",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T11:00:00Z",
+    "pickedUpUtc": "2026-07-03T12:00:00Z",
+    "deliveredUtc": "2026-07-03T14:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-03T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-03T10:00:00Z",
+    "updatedUtc": "2026-07-03T14:00:00Z"
+  },
+  {
+    "id": "task_20260701154237_2261ddef",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701155549_cec56969",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T11:00:00Z",
+    "pickedUpUtc": "2026-07-01T12:00:00Z",
+    "deliveredUtc": "2026-07-01T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T10:00:00Z",
+    "updatedUtc": "2026-07-01T14:00:00Z"
+  },
+  {
+    "id": "task_20260629111493_4363589c",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260629154041_c65720ae",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T10:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T10:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      }
+    ],
+    "createdUtc": "2026-06-29T09:00:00Z",
+    "updatedUtc": "2026-06-29T10:00:00Z"
+  },
+  {
+    "id": "task_20260702201473_78dbcde3",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260702079765_e4610160",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T07:00:00Z",
+    "pickedUpUtc": "2026-07-02T08:00:00Z",
+    "deliveredUtc": "2026-07-02T10:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T07:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-02T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T06:00:00Z",
+    "updatedUtc": "2026-07-02T10:00:00Z"
+  },
+  {
+    "id": "task_20260628220965_af2537f5",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628214560_bbb4c0ce",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T08:00:00Z",
+    "pickedUpUtc": "2026-06-28T09:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T08:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T10:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T07:00:00Z",
+    "updatedUtc": "2026-06-28T10:00:00Z"
+  },
+  {
+    "id": "task_20260704129299_5e934de0",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704096797_723b80d4",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-04T11:00:00Z",
+    "pickedUpUtc": "2026-07-04T12:00:00Z",
+    "deliveredUtc": "2026-07-04T16:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-04T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T10:00:00Z",
+    "updatedUtc": "2026-07-04T16:00:00Z"
+  },
+  {
+    "id": "task_20260628209464_2c816bf0",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628179182_e1ad640c",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T10:00:00Z",
+    "pickedUpUtc": "2026-06-28T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T10:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T09:00:00Z",
+    "updatedUtc": "2026-06-28T12:00:00Z"
+  },
+  {
+    "id": "task_20260702218390_01b062c1",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260702155760_96721e98",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-02T10:00:00Z",
+    "pickedUpUtc": "2026-07-02T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T10:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-02T13:00:00Z",
+        "reason": "Access to building denied"
+      }
+    ],
+    "createdUtc": "2026-07-02T09:00:00Z",
+    "updatedUtc": "2026-07-02T13:00:00Z"
+  },
+  {
+    "id": "task_20260624146566_b862acc3",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260624080208_83b8fa05",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T08:00:00Z",
+    "pickedUpUtc": "2026-06-24T09:00:00Z",
+    "deliveredUtc": "2026-06-24T11:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T08:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T07:00:00Z",
+    "updatedUtc": "2026-06-24T11:00:00Z"
+  },
+  {
+    "id": "task_20260629098499_0e503fd8",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260629214872_29476f54",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T08:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T08:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      }
+    ],
+    "createdUtc": "2026-06-29T07:00:00Z",
+    "updatedUtc": "2026-06-29T08:00:00Z"
+  },
+  {
+    "id": "task_20260626104713_38283a05",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260626195434_f54f1b92",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T08:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T08:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-26T07:00:00Z",
+    "updatedUtc": "2026-06-26T09:00:00Z"
+  },
+  {
+    "id": "task_20260624088461_043d72db",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260624107679_9f8acdeb",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T11:00:00Z",
+    "pickedUpUtc": "2026-06-24T12:00:00Z",
+    "deliveredUtc": "2026-06-24T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T10:00:00Z",
+    "updatedUtc": "2026-06-24T14:00:00Z"
+  },
+  {
+    "id": "task_20260705218197_8a0ea57a",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260705218731_18a70609",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T08:00:00Z",
+    "pickedUpUtc": "2026-07-05T09:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T08:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T10:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T10:00:00Z"
+  },
+  {
+    "id": "task_20260622211026_1903f9b3",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260622230192_6e76936a",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-22T12:00:00Z",
+    "pickedUpUtc": "2026-06-22T13:00:00Z",
+    "deliveredUtc": "2026-06-22T17:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T15:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-22T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T17:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T11:00:00Z",
+    "updatedUtc": "2026-06-22T17:00:00Z"
+  },
+  {
+    "id": "task_20260705158311_a79055b0",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260705134256_9929afeb",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T07:00:00Z",
+    "pickedUpUtc": "2026-07-05T08:00:00Z",
+    "deliveredUtc": "2026-07-05T10:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T07:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-05T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T06:00:00Z",
+    "updatedUtc": "2026-07-05T10:00:00Z"
+  },
+  {
+    "id": "task_20260628164190_c145d6ba",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628087940_279f91ab",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-28T08:00:00Z",
+    "updatedUtc": "2026-06-28T08:00:00Z"
+  },
+  {
+    "id": "task_20260625164367_bc5c3cd8",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260625204730_c8a65b85",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-25T10:00:00Z",
+    "pickedUpUtc": "2026-06-25T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "Address incomplete"
+      }
+    ],
+    "createdUtc": "2026-06-25T09:00:00Z",
+    "updatedUtc": "2026-06-25T13:00:00Z"
+  },
+  {
+    "id": "task_20260629226691_015aba1d",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260629102413_19abdc15",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-29T12:00:00Z",
+    "pickedUpUtc": "2026-06-29T13:00:00Z",
+    "deliveredUtc": "2026-06-29T17:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-29T15:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-29T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T17:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T11:00:00Z",
+    "updatedUtc": "2026-06-29T17:00:00Z"
+  },
+  {
+    "id": "task_20260701216623_0eb5e5a7",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701083105_106793b6",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-01T10:00:00Z",
+    "pickedUpUtc": "2026-07-01T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "Access to building denied"
+      }
+    ],
+    "createdUtc": "2026-07-01T09:00:00Z",
+    "updatedUtc": "2026-07-01T13:00:00Z"
+  },
+  {
+    "id": "task_20260629154303_3d3fec1b",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260629112876_d9beccff",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T07:00:00Z",
+    "pickedUpUtc": "2026-06-29T08:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T07:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T09:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T06:00:00Z",
+    "updatedUtc": "2026-06-29T09:00:00Z"
+  },
+  {
+    "id": "task_20260622204072_48d495a4",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260622082765_ff2f6883",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T08:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T08:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      }
+    ],
+    "createdUtc": "2026-06-22T07:00:00Z",
+    "updatedUtc": "2026-06-22T08:00:00Z"
+  },
+  {
+    "id": "task_20260705192707_1b414999",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260705212812_591cc524",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-05T11:00:00Z",
+    "pickedUpUtc": "2026-07-05T12:00:00Z",
+    "deliveredUtc": "2026-07-05T16:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T11:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-05T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-05T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T10:00:00Z",
+    "updatedUtc": "2026-07-05T16:00:00Z"
+  },
+  {
+    "id": "task_20260623180284_ae7cfd14",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260623127552_e048f1de",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-23T10:00:00Z",
+    "updatedUtc": "2026-06-23T10:00:00Z"
+  },
+  {
+    "id": "task_20260629195398_89207bc4",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260629067169_7b62659e",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-29T10:00:00Z",
+    "updatedUtc": "2026-06-29T10:00:00Z"
+  },
+  {
+    "id": "task_20260622210395_44e22691",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260622129035_3f8dcf96",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T12:00:00Z",
+    "pickedUpUtc": "2026-06-22T13:00:00Z",
+    "deliveredUtc": "2026-06-22T15:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T11:00:00Z",
+    "updatedUtc": "2026-06-22T15:00:00Z"
+  },
+  {
+    "id": "task_20260629087967_1eb05b4a",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260629112341_3c1fdff0",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T12:00:00Z",
+    "pickedUpUtc": "2026-06-29T13:00:00Z",
+    "deliveredUtc": "2026-06-29T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T11:00:00Z",
+    "updatedUtc": "2026-06-29T15:00:00Z"
+  },
+  {
+    "id": "task_20260701193990_47bf8db7",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701201944_f53f091e",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-01T07:00:00Z",
+    "pickedUpUtc": "2026-07-01T08:00:00Z",
+    "deliveredUtc": "2026-07-01T12:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T07:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T06:00:00Z",
+    "updatedUtc": "2026-07-01T12:00:00Z"
+  },
+  {
+    "id": "task_20260622195844_75c72fb6",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260622170933_7a732f35",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-22T10:00:00Z",
+    "updatedUtc": "2026-06-22T10:00:00Z"
+  },
+  {
+    "id": "task_20260627122164_44f7f01a",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260627062206_0306a258",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T12:00:00Z",
+    "pickedUpUtc": "2026-06-27T13:00:00Z",
+    "deliveredUtc": "2026-06-27T15:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T11:00:00Z",
+    "updatedUtc": "2026-06-27T15:00:00Z"
+  },
+  {
+    "id": "task_20260627119917_d06eccbc",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260627190749_6c878546",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-27T07:00:00Z",
+    "updatedUtc": "2026-06-27T07:00:00Z"
+  },
+  {
+    "id": "task_20260623062553_2d36226c",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260623130765_cdd8af09",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T12:00:00Z",
+    "pickedUpUtc": "2026-06-23T13:00:00Z",
+    "deliveredUtc": "2026-06-23T15:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T11:00:00Z",
+    "updatedUtc": "2026-06-23T15:00:00Z"
+  },
+  {
+    "id": "task_20260704225114_18a73d94",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704138652_403fd582",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T10:00:00Z",
+    "pickedUpUtc": "2026-07-04T11:00:00Z",
+    "deliveredUtc": "2026-07-04T13:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T13:00:00Z"
+  },
+  {
+    "id": "task_20260627230358_a62d7221",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260627206892_8eb7c306",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T09:00:00Z",
+    "pickedUpUtc": "2026-06-27T10:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T08:00:00Z",
+    "updatedUtc": "2026-06-27T11:00:00Z"
+  },
+  {
+    "id": "task_20260624227924_cec68cfe",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260624153089_53391df4",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T09:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T09:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-24T10:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-24T08:00:00Z",
+    "updatedUtc": "2026-06-24T10:00:00Z"
+  },
+  {
+    "id": "task_20260701163666_457083e4",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701166108_d9518f98",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T11:00:00Z",
+    "pickedUpUtc": "2026-07-01T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T10:00:00Z",
+    "updatedUtc": "2026-07-01T13:00:00Z"
+  },
+  {
+    "id": "task_20260704080988_35e80364",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704213857_855c0a97",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-07-04T08:00:00Z",
+    "updatedUtc": "2026-07-04T08:00:00Z"
+  },
+  {
+    "id": "task_20260624222031_27c00f89",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260624087003_18763576",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T10:00:00Z",
+    "pickedUpUtc": "2026-06-24T11:00:00Z",
+    "deliveredUtc": "2026-06-24T13:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T10:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T09:00:00Z",
+    "updatedUtc": "2026-06-24T13:00:00Z"
+  },
+  {
+    "id": "task_20260626145249_dd3ee854",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260626124853_bcd2e8eb",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T08:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T08:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-26T07:00:00Z",
+    "updatedUtc": "2026-06-26T09:00:00Z"
+  },
+  {
+    "id": "task_20260705227648_88a613b4",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260705131411_8c6d768e",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T11:00:00Z",
+    "pickedUpUtc": "2026-07-05T12:00:00Z",
+    "deliveredUtc": "2026-07-05T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T11:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T10:00:00Z",
+    "updatedUtc": "2026-07-05T14:00:00Z"
+  },
+  {
+    "id": "task_20260630182997_88fc3da1",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260630083476_711dc1dd",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T08:00:00Z",
+    "pickedUpUtc": "2026-06-30T09:00:00Z",
+    "deliveredUtc": "2026-06-30T11:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T08:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T07:00:00Z",
+    "updatedUtc": "2026-06-30T11:00:00Z"
+  },
+  {
+    "id": "task_20260704102800_b7062cfa",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704138541_02568389",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T10:00:00Z",
+    "pickedUpUtc": "2026-07-04T11:00:00Z",
+    "deliveredUtc": "2026-07-04T13:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T13:00:00Z"
+  },
+  {
+    "id": "task_20260625077947_2eb23ca3",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260625080764_6c17e150",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T09:00:00Z",
+    "pickedUpUtc": "2026-06-25T10:00:00Z",
+    "deliveredUtc": "2026-06-25T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T08:00:00Z",
+    "updatedUtc": "2026-06-25T12:00:00Z"
+  },
+  {
+    "id": "task_20260701086810_4838a888",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701131338_b3522c18",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-01T10:00:00Z",
+    "pickedUpUtc": "2026-07-01T11:00:00Z",
+    "deliveredUtc": "2026-07-01T15:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-01T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T09:00:00Z",
+    "updatedUtc": "2026-07-01T15:00:00Z"
+  },
+  {
+    "id": "task_20260625068319_548b2ce3",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260625099500_03c501fe",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T07:00:00Z",
+    "pickedUpUtc": "2026-06-25T08:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T07:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T06:00:00Z",
+    "updatedUtc": "2026-06-25T09:00:00Z"
+  },
+  {
+    "id": "task_20260705091971_f97f4994",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260705074690_4439940d",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T08:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T08:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-07-05T09:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T09:00:00Z"
+  },
+  {
+    "id": "task_20260628141817_efabcd73",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628124792_bcd49975",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T10:00:00Z",
+    "pickedUpUtc": "2026-06-28T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T10:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T09:00:00Z",
+    "updatedUtc": "2026-06-28T12:00:00Z"
+  },
+  {
+    "id": "task_20260624117091_f9287d26",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260624071058_bea6450f",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T12:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-24T11:00:00Z",
+    "updatedUtc": "2026-06-24T13:00:00Z"
+  },
+  {
+    "id": "task_20260628100630_5f13fb98",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628063949_2ad820ca",
+    "driverId": "driver_20260624147984_a7890770",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T09:00:00Z",
+    "pickedUpUtc": "2026-06-28T10:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T09:00:00Z",
+        "reason": "Assigned to Gita Savitri"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T08:00:00Z",
+    "updatedUtc": "2026-06-28T11:00:00Z"
+  },
+  {
+    "id": "task_20260623120994_5115d7ee",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260623101339_7ffab493",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T08:00:00Z",
+    "pickedUpUtc": "2026-06-23T09:00:00Z",
+    "deliveredUtc": "2026-06-23T11:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T08:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T07:00:00Z",
+    "updatedUtc": "2026-06-23T11:00:00Z"
+  },
+  {
+    "id": "task_20260704188474_30952621",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704110584_05776108",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-04T10:00:00Z",
+    "pickedUpUtc": "2026-07-04T11:00:00Z",
+    "deliveredUtc": "2026-07-04T15:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T15:00:00Z"
+  },
+  {
+    "id": "task_20260703227254_8186722b",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260703132174_de1f1619",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T10:00:00Z",
+    "pickedUpUtc": "2026-07-03T11:00:00Z",
+    "deliveredUtc": "2026-07-03T13:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T10:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-03T09:00:00Z",
+    "updatedUtc": "2026-07-03T13:00:00Z"
+  },
+  {
+    "id": "task_20260701144567_68e8f311",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701222581_3d211daf",
+    "driverId": "driver_20260623093539_bdacdc5e",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T09:00:00Z",
+    "pickedUpUtc": "2026-07-01T10:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T09:00:00Z",
+        "reason": "Assigned to Farhan Hakim"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T08:00:00Z",
+    "updatedUtc": "2026-07-01T11:00:00Z"
+  },
+  {
+    "id": "task_20260627228231_d617b9c0",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260627085233_85f0786a",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T07:00:00Z",
+    "pickedUpUtc": "2026-06-27T08:00:00Z",
+    "deliveredUtc": "2026-06-27T10:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T07:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T06:00:00Z",
+    "updatedUtc": "2026-06-27T10:00:00Z"
+  },
+  {
+    "id": "task_20260622169039_d2705470",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260622117861_9b1fc6d1",
+    "driverId": "driver_20260624209957_d0e656e5",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T09:00:00Z",
+    "pickedUpUtc": "2026-06-22T10:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T09:00:00Z",
+        "reason": "Assigned to Citra Dewi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T08:00:00Z",
+    "updatedUtc": "2026-06-22T11:00:00Z"
+  },
+  {
+    "id": "task_20260704120559_881af04f",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260704075283_d2da43ec",
+    "driverId": "driver_20260624200151_a36884f5",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-04T12:00:00Z",
+    "pickedUpUtc": "2026-07-04T13:00:00Z",
+    "deliveredUtc": "2026-07-04T17:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Assigned to Dian Permata"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-04T15:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-04T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T17:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T11:00:00Z",
+    "updatedUtc": "2026-07-04T17:00:00Z"
+  },
+  {
+    "id": "task_20260701204170_66cc7376",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701106897_8ef4d74b",
+    "driverId": "driver_20260623104560_d73418fe",
+    "status": 4,
+    "attemptCount": 2,
+    "assignedUtc": "2026-07-01T12:00:00Z",
+    "pickedUpUtc": "2026-07-01T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Assigned to Eko Prasetyo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-01T15:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-01T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-01T17:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      }
+    ],
+    "createdUtc": "2026-07-01T11:00:00Z",
+    "updatedUtc": "2026-07-01T17:00:00Z"
+  },
+  {
+    "id": "task_20260701207625_8bae295e",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260701152359_e7094153",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T10:00:00Z",
+    "pickedUpUtc": "2026-07-01T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T09:00:00Z",
+    "updatedUtc": "2026-07-01T12:00:00Z"
+  },
+  {
+    "id": "task_20260628139125_01ae7eb1",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260628126607_5c29850b",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-28T10:00:00Z",
+    "updatedUtc": "2026-06-28T10:00:00Z"
+  },
+  {
+    "id": "task_20260626153233_27f6a2ac",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260626116314_db107e7f",
+    "driverId": "driver_20260623169724_6793cb09",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T08:00:00Z",
+    "pickedUpUtc": "2026-06-26T09:00:00Z",
+    "deliveredUtc": "2026-06-26T11:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T08:00:00Z",
+        "reason": "Assigned to Bayu Nugroho"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T07:00:00Z",
+    "updatedUtc": "2026-06-26T11:00:00Z"
+  },
+  {
+    "id": "task_20260625211055_d1cbc092",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260625138722_17871810",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T09:00:00Z",
+    "pickedUpUtc": "2026-06-25T10:00:00Z",
+    "deliveredUtc": "2026-06-25T12:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T08:00:00Z",
+    "updatedUtc": "2026-06-25T12:00:00Z"
+  },
+  {
+    "id": "task_20260622217889_edbc36d8",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260622211069_61ad018a",
+    "driverId": "driver_20260624096681_b8a60402",
+    "status": 4,
+    "attemptCount": 2,
+    "assignedUtc": "2026-06-22T12:00:00Z",
+    "pickedUpUtc": "2026-06-22T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Assigned to Ahmad Fauzi"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T15:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-22T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T17:00:00Z",
+        "reason": "Recipient refused parcel"
+      }
+    ],
+    "createdUtc": "2026-06-22T11:00:00Z",
+    "updatedUtc": "2026-06-22T17:00:00Z"
+  },
+  {
+    "id": "task_20260630216010_9343e6ea",
+    "tenantId": "garuda-cargo",
+    "parcelId": "parcel_20260630143706_8a38d5aa",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-30T06:00:00Z",
+    "updatedUtc": "2026-06-30T06:00:00Z"
+  }
+]

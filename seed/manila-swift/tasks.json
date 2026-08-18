@@ -1,0 +1,4065 @@
+[
+  {
+    "id": "task_20260630223703_b87b6384",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260630092812_a0017720",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T09:00:00Z",
+    "pickedUpUtc": "2026-06-30T10:00:00Z",
+    "deliveredUtc": "2026-06-30T12:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T09:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T08:00:00Z",
+    "updatedUtc": "2026-06-30T12:00:00Z"
+  },
+  {
+    "id": "task_20260705139192_7ba24588",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260705081292_0ba36279",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T07:00:00Z",
+    "pickedUpUtc": "2026-07-05T08:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T07:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T09:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T06:00:00Z",
+    "updatedUtc": "2026-07-05T09:00:00Z"
+  },
+  {
+    "id": "task_20260704141941_dc8a4922",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260704166454_4c24a053",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T12:00:00Z",
+    "pickedUpUtc": "2026-07-04T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T11:00:00Z",
+    "updatedUtc": "2026-07-04T14:00:00Z"
+  },
+  {
+    "id": "task_20260703085378_0cf477ef",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260703164521_2179e3f0",
+    "driverId": "driver_20260623210706_12e153a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T09:00:00Z",
+    "pickedUpUtc": "2026-07-03T10:00:00Z",
+    "deliveredUtc": "2026-07-03T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T09:00:00Z",
+        "reason": "Assigned to Pedro Garcia"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-03T08:00:00Z",
+    "updatedUtc": "2026-07-03T12:00:00Z"
+  },
+  {
+    "id": "task_20260625163086_8164ceec",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260625145835_ef0a573d",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T08:00:00Z",
+    "pickedUpUtc": "2026-06-25T09:00:00Z",
+    "deliveredUtc": "2026-06-25T11:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T08:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T07:00:00Z",
+    "updatedUtc": "2026-06-25T11:00:00Z"
+  },
+  {
+    "id": "task_20260701129329_ba3df7ff",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260701072755_0cf0374c",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T09:00:00Z",
+    "pickedUpUtc": "2026-07-01T10:00:00Z",
+    "deliveredUtc": "2026-07-01T12:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T09:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T08:00:00Z",
+    "updatedUtc": "2026-07-01T12:00:00Z"
+  },
+  {
+    "id": "task_20260622223379_ae2e9af9",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622073410_91fdfa4f",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T10:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "Assigned to Maria Santos"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-22T09:00:00Z",
+    "updatedUtc": "2026-06-22T11:00:00Z"
+  },
+  {
+    "id": "task_20260623095923_b6adf48b",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260623157831_cb7e6268",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T10:00:00Z",
+    "pickedUpUtc": "2026-06-23T11:00:00Z",
+    "deliveredUtc": "2026-06-23T13:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T13:00:00Z"
+  },
+  {
+    "id": "task_20260624193618_88476c56",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624195136_23c8afdb",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T11:00:00Z",
+    "pickedUpUtc": "2026-06-24T12:00:00Z",
+    "deliveredUtc": "2026-06-24T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T10:00:00Z",
+    "updatedUtc": "2026-06-24T14:00:00Z"
+  },
+  {
+    "id": "task_20260629212967_7afeb114",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260629156562_54cc1e2a",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 4,
+    "attemptCount": 3,
+    "assignedUtc": "2026-06-29T07:00:00Z",
+    "pickedUpUtc": "2026-06-29T08:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T07:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-29T10:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-29T11:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-29T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-29T14:00:00Z",
+        "reason": "Address incomplete"
+      }
+    ],
+    "createdUtc": "2026-06-29T06:00:00Z",
+    "updatedUtc": "2026-06-29T14:00:00Z"
+  },
+  {
+    "id": "task_20260705220295_eba742d2",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260705123490_08150147",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T12:00:00Z",
+    "pickedUpUtc": "2026-07-05T13:00:00Z",
+    "deliveredUtc": "2026-07-05T15:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-05T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T11:00:00Z",
+    "updatedUtc": "2026-07-05T15:00:00Z"
+  },
+  {
+    "id": "task_20260703228639_cdbc2c1c",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260703195969_35145890",
+    "driverId": "driver_20260623210706_12e153a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T08:00:00Z",
+    "pickedUpUtc": "2026-07-03T09:00:00Z",
+    "deliveredUtc": "2026-07-03T11:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T08:00:00Z",
+        "reason": "Assigned to Pedro Garcia"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-03T07:00:00Z",
+    "updatedUtc": "2026-07-03T11:00:00Z"
+  },
+  {
+    "id": "task_20260625210333_ad371d9e",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260625206299_4c6a70f4",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T09:00:00Z",
+    "pickedUpUtc": "2026-06-25T10:00:00Z",
+    "deliveredUtc": "2026-06-25T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T08:00:00Z",
+    "updatedUtc": "2026-06-25T12:00:00Z"
+  },
+  {
+    "id": "task_20260705201184_4568f426",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260705098397_4a5b1aff",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T09:00:00Z",
+    "pickedUpUtc": "2026-07-05T10:00:00Z",
+    "deliveredUtc": "2026-07-05T12:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T09:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T08:00:00Z",
+    "updatedUtc": "2026-07-05T12:00:00Z"
+  },
+  {
+    "id": "task_20260623096036_01539221",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260623213834_3d4196fe",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T11:00:00Z",
+    "pickedUpUtc": "2026-06-23T12:00:00Z",
+    "deliveredUtc": "2026-06-23T14:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T10:00:00Z",
+    "updatedUtc": "2026-06-23T14:00:00Z"
+  },
+  {
+    "id": "task_20260628069777_e9c96c52",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260628184701_7a3a10e1",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T12:00:00Z",
+    "pickedUpUtc": "2026-06-28T13:00:00Z",
+    "deliveredUtc": "2026-06-28T15:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-28T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T11:00:00Z",
+    "updatedUtc": "2026-06-28T15:00:00Z"
+  },
+  {
+    "id": "task_20260622228116_8b15bd94",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622189861_2fb21e66",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T10:00:00Z",
+    "pickedUpUtc": "2026-06-22T11:00:00Z",
+    "deliveredUtc": "2026-06-22T13:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T09:00:00Z",
+    "updatedUtc": "2026-06-22T13:00:00Z"
+  },
+  {
+    "id": "task_20260705137338_915a1c30",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260705182688_45d8a6ad",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-05T11:00:00Z",
+    "pickedUpUtc": "2026-07-05T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T11:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      }
+    ],
+    "createdUtc": "2026-07-05T10:00:00Z",
+    "updatedUtc": "2026-07-05T14:00:00Z"
+  },
+  {
+    "id": "task_20260705125024_01bf9e73",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260705166296_d3b59af7",
+    "driverId": "driver_20260623210706_12e153a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T12:00:00Z",
+    "pickedUpUtc": "2026-07-05T13:00:00Z",
+    "deliveredUtc": "2026-07-05T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Assigned to Pedro Garcia"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-05T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T11:00:00Z",
+    "updatedUtc": "2026-07-05T15:00:00Z"
+  },
+  {
+    "id": "task_20260704101868_67c96204",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260704146409_4d4c5280",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T09:00:00Z",
+    "pickedUpUtc": "2026-07-04T10:00:00Z",
+    "deliveredUtc": "2026-07-04T12:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T09:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T08:00:00Z",
+    "updatedUtc": "2026-07-04T12:00:00Z"
+  },
+  {
+    "id": "task_20260703218790_5fa5e0aa",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260703227434_ea87855e",
+    "driverId": "driver_20260624227718_96792482",
+    "status": 4,
+    "attemptCount": 3,
+    "assignedUtc": "2026-07-03T07:00:00Z",
+    "pickedUpUtc": "2026-07-03T08:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T07:00:00Z",
+        "reason": "Assigned to Carlo Aquino"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-03T10:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-03T14:00:00Z",
+        "reason": "Address incomplete"
+      }
+    ],
+    "createdUtc": "2026-07-03T06:00:00Z",
+    "updatedUtc": "2026-07-03T14:00:00Z"
+  },
+  {
+    "id": "task_20260704192510_33c08bf1",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260704216189_df85c777",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T08:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T08:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-07-04T09:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-07-04T07:00:00Z",
+    "updatedUtc": "2026-07-04T09:00:00Z"
+  },
+  {
+    "id": "task_20260627179746_905c7bdd",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260627175825_1dc1e7eb",
+    "driverId": "driver_20260623193367_3967e60a",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T11:00:00Z",
+    "pickedUpUtc": "2026-06-27T12:00:00Z",
+    "deliveredUtc": "2026-06-27T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Assigned to Jose Ramos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T10:00:00Z",
+    "updatedUtc": "2026-06-27T14:00:00Z"
+  },
+  {
+    "id": "task_20260703078092_fc737d92",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260703163795_41241bb4",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T07:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T07:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      }
+    ],
+    "createdUtc": "2026-07-03T06:00:00Z",
+    "updatedUtc": "2026-07-03T07:00:00Z"
+  },
+  {
+    "id": "task_20260622233484_dfe2c0a0",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622167182_2e13418d",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-22T09:00:00Z",
+    "pickedUpUtc": "2026-06-22T10:00:00Z",
+    "deliveredUtc": "2026-06-22T14:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T09:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T08:00:00Z",
+    "updatedUtc": "2026-06-22T14:00:00Z"
+  },
+  {
+    "id": "task_20260624120205_3f5cf2f3",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624163037_87623997",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T11:00:00Z",
+    "pickedUpUtc": "2026-06-24T12:00:00Z",
+    "deliveredUtc": "2026-06-24T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T10:00:00Z",
+    "updatedUtc": "2026-06-24T14:00:00Z"
+  },
+  {
+    "id": "task_20260625072760_3ea6e5b2",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260625089581_083f64c3",
+    "driverId": "driver_20260623193367_3967e60a",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T12:00:00Z",
+    "pickedUpUtc": "2026-06-25T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Assigned to Jose Ramos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T14:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T11:00:00Z",
+    "updatedUtc": "2026-06-25T14:00:00Z"
+  },
+  {
+    "id": "task_20260628144060_3ca5be29",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260628121430_8a2db2e6",
+    "driverId": "driver_20260623210706_12e153a6",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T10:00:00Z",
+    "pickedUpUtc": "2026-06-28T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T10:00:00Z",
+        "reason": "Assigned to Pedro Garcia"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T09:00:00Z",
+    "updatedUtc": "2026-06-28T12:00:00Z"
+  },
+  {
+    "id": "task_20260624171988_8e4c3ab5",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624196642_389641dd",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T12:00:00Z",
+    "pickedUpUtc": "2026-06-24T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T11:00:00Z",
+    "updatedUtc": "2026-06-24T14:00:00Z"
+  },
+  {
+    "id": "task_20260622119072_4cfd0fc1",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622228641_abdd1a8f",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T09:00:00Z",
+    "pickedUpUtc": "2026-06-22T10:00:00Z",
+    "deliveredUtc": "2026-06-22T12:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T09:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T08:00:00Z",
+    "updatedUtc": "2026-06-22T12:00:00Z"
+  },
+  {
+    "id": "task_20260630084238_891f6912",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260630169185_8eaa5841",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T10:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T10:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-30T09:00:00Z",
+    "updatedUtc": "2026-06-30T11:00:00Z"
+  },
+  {
+    "id": "task_20260628064019_363908bf",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260628218589_9a591974",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-28T11:00:00Z",
+    "updatedUtc": "2026-06-28T11:00:00Z"
+  },
+  {
+    "id": "task_20260625199893_a6129a1c",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260625090753_bf337a15",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T12:00:00Z",
+    "pickedUpUtc": "2026-06-25T13:00:00Z",
+    "deliveredUtc": "2026-06-25T15:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T11:00:00Z",
+    "updatedUtc": "2026-06-25T15:00:00Z"
+  },
+  {
+    "id": "task_20260630205047_ef4c5119",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260630182160_193e638d",
+    "driverId": "driver_20260624227718_96792482",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T10:00:00Z",
+    "pickedUpUtc": "2026-06-30T11:00:00Z",
+    "deliveredUtc": "2026-06-30T13:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T10:00:00Z",
+        "reason": "Assigned to Carlo Aquino"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T09:00:00Z",
+    "updatedUtc": "2026-06-30T13:00:00Z"
+  },
+  {
+    "id": "task_20260627152320_2b54ff7a",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260627159572_91ddb9bf",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T08:00:00Z",
+    "pickedUpUtc": "2026-06-27T09:00:00Z",
+    "deliveredUtc": "2026-06-27T11:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T08:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T07:00:00Z",
+    "updatedUtc": "2026-06-27T11:00:00Z"
+  },
+  {
+    "id": "task_20260624099591_02571851",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624228246_f50d7a37",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T11:00:00Z",
+    "pickedUpUtc": "2026-06-24T12:00:00Z",
+    "deliveredUtc": "2026-06-24T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T10:00:00Z",
+    "updatedUtc": "2026-06-24T14:00:00Z"
+  },
+  {
+    "id": "task_20260622132021_892621df",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622227176_aab07015",
+    "driverId": "driver_20260623210706_12e153a6",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-22T11:00:00Z",
+    "pickedUpUtc": "2026-06-22T12:00:00Z",
+    "deliveredUtc": "2026-06-22T16:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Assigned to Pedro Garcia"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-22T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T10:00:00Z",
+    "updatedUtc": "2026-06-22T16:00:00Z"
+  },
+  {
+    "id": "task_20260623166437_7580e050",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260623197464_261e2555",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T07:00:00Z",
+    "pickedUpUtc": "2026-06-23T08:00:00Z",
+    "deliveredUtc": "2026-06-23T10:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T07:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T06:00:00Z",
+    "updatedUtc": "2026-06-23T10:00:00Z"
+  },
+  {
+    "id": "task_20260626081675_7ff6b824",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260626081133_a75b395a",
+    "driverId": "driver_20260624227718_96792482",
+    "status": 4,
+    "attemptCount": 2,
+    "assignedUtc": "2026-06-26T12:00:00Z",
+    "pickedUpUtc": "2026-06-26T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T12:00:00Z",
+        "reason": "Assigned to Carlo Aquino"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-26T15:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-26T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-26T17:00:00Z",
+        "reason": "Recipient not at address"
+      }
+    ],
+    "createdUtc": "2026-06-26T11:00:00Z",
+    "updatedUtc": "2026-06-26T17:00:00Z"
+  },
+  {
+    "id": "task_20260630142440_04022b3c",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260630120231_361f6d90",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T07:00:00Z",
+    "pickedUpUtc": "2026-06-30T08:00:00Z",
+    "deliveredUtc": "2026-06-30T10:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T07:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T06:00:00Z",
+    "updatedUtc": "2026-06-30T10:00:00Z"
+  },
+  {
+    "id": "task_20260623150664_0dbf0caf",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260623102585_905f9096",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T09:00:00Z",
+    "pickedUpUtc": "2026-06-23T10:00:00Z",
+    "deliveredUtc": "2026-06-23T12:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T09:00:00Z",
+        "reason": "Assigned to Maria Santos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T08:00:00Z",
+    "updatedUtc": "2026-06-23T12:00:00Z"
+  },
+  {
+    "id": "task_20260627158415_6e8d9644",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260627220921_f4719986",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T11:00:00Z",
+    "pickedUpUtc": "2026-06-27T12:00:00Z",
+    "deliveredUtc": "2026-06-27T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T10:00:00Z",
+    "updatedUtc": "2026-06-27T14:00:00Z"
+  },
+  {
+    "id": "task_20260623143015_5c56d9bc",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260623137431_cc4d5819",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-23T11:00:00Z",
+    "pickedUpUtc": "2026-06-23T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Assigned to Maria Santos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-23T14:00:00Z",
+        "reason": "Recipient not at address"
+      }
+    ],
+    "createdUtc": "2026-06-23T10:00:00Z",
+    "updatedUtc": "2026-06-23T14:00:00Z"
+  },
+  {
+    "id": "task_20260626083493_5a9a206a",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260626154350_c2e79a98",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-26T10:00:00Z",
+    "pickedUpUtc": "2026-06-26T11:00:00Z",
+    "deliveredUtc": "2026-06-26T15:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-26T13:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-26T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T09:00:00Z",
+    "updatedUtc": "2026-06-26T15:00:00Z"
+  },
+  {
+    "id": "task_20260705138939_44b64ec1",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260705063235_4ab6821c",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-05T10:00:00Z",
+    "pickedUpUtc": "2026-07-05T11:00:00Z",
+    "deliveredUtc": "2026-07-05T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T10:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-05T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T09:00:00Z",
+    "updatedUtc": "2026-07-05T15:00:00Z"
+  },
+  {
+    "id": "task_20260626061774_f2e61828",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260626138578_7bf69552",
+    "driverId": "driver_20260624227718_96792482",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T10:00:00Z",
+    "pickedUpUtc": "2026-06-26T11:00:00Z",
+    "deliveredUtc": "2026-06-26T13:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "Assigned to Carlo Aquino"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T09:00:00Z",
+    "updatedUtc": "2026-06-26T13:00:00Z"
+  },
+  {
+    "id": "task_20260704164396_f7fe604f",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260704175401_55b145e4",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T09:00:00Z",
+    "pickedUpUtc": "2026-07-04T10:00:00Z",
+    "deliveredUtc": "2026-07-04T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T09:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T08:00:00Z",
+    "updatedUtc": "2026-07-04T12:00:00Z"
+  },
+  {
+    "id": "task_20260701204205_06e3f949",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260701145429_60452909",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T08:00:00Z",
+    "pickedUpUtc": "2026-07-01T09:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T08:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T07:00:00Z",
+    "updatedUtc": "2026-07-01T10:00:00Z"
+  },
+  {
+    "id": "task_20260703158825_12ef6101",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260703174938_cc351e4f",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 4,
+    "attemptCount": 3,
+    "assignedUtc": "2026-07-03T08:00:00Z",
+    "pickedUpUtc": "2026-07-03T09:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T08:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-03T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-03T15:00:00Z",
+        "reason": "Access to building denied"
+      }
+    ],
+    "createdUtc": "2026-07-03T07:00:00Z",
+    "updatedUtc": "2026-07-03T15:00:00Z"
+  },
+  {
+    "id": "task_20260630220609_0b570720",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260630169655_8b2c550a",
+    "driverId": "driver_20260624227718_96792482",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T11:00:00Z",
+    "pickedUpUtc": "2026-06-30T12:00:00Z",
+    "deliveredUtc": "2026-06-30T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Assigned to Carlo Aquino"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T10:00:00Z",
+    "updatedUtc": "2026-06-30T14:00:00Z"
+  },
+  {
+    "id": "task_20260704162533_768b4f7e",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260704087772_02b34254",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-04T10:00:00Z",
+    "pickedUpUtc": "2026-07-04T11:00:00Z",
+    "deliveredUtc": "2026-07-04T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T15:00:00Z"
+  },
+  {
+    "id": "task_20260623085591_702ba49f",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260623169045_eba900e1",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T09:00:00Z",
+    "pickedUpUtc": "2026-06-23T10:00:00Z",
+    "deliveredUtc": "2026-06-23T12:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T09:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T08:00:00Z",
+    "updatedUtc": "2026-06-23T12:00:00Z"
+  },
+  {
+    "id": "task_20260622120779_cc39b925",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622090168_05c8234b",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-22T11:00:00Z",
+    "updatedUtc": "2026-06-22T11:00:00Z"
+  },
+  {
+    "id": "task_20260628076400_93cd1291",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260628108352_2fb70dab",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T12:00:00Z",
+    "pickedUpUtc": "2026-06-28T13:00:00Z",
+    "deliveredUtc": "2026-06-28T15:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Assigned to Maria Santos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-28T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T11:00:00Z",
+    "updatedUtc": "2026-06-28T15:00:00Z"
+  },
+  {
+    "id": "task_20260627180025_9e0b7b01",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260627111661_75220646",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T09:00:00Z",
+    "pickedUpUtc": "2026-06-27T10:00:00Z",
+    "deliveredUtc": "2026-06-27T12:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T08:00:00Z",
+    "updatedUtc": "2026-06-27T12:00:00Z"
+  },
+  {
+    "id": "task_20260701169638_98af5cca",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260701082217_ac0f6801",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T11:00:00Z",
+    "pickedUpUtc": "2026-07-01T12:00:00Z",
+    "deliveredUtc": "2026-07-01T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T10:00:00Z",
+    "updatedUtc": "2026-07-01T14:00:00Z"
+  },
+  {
+    "id": "task_20260624062512_7c0f549d",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624226592_8991b01a",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T10:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T10:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-24T09:00:00Z",
+    "updatedUtc": "2026-06-24T11:00:00Z"
+  },
+  {
+    "id": "task_20260628117810_4ac66780",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260628192497_a72f947d",
+    "driverId": "driver_20260623193367_3967e60a",
+    "status": 4,
+    "attemptCount": 2,
+    "assignedUtc": "2026-06-28T11:00:00Z",
+    "pickedUpUtc": "2026-06-28T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "Assigned to Jose Ramos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-28T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-28T16:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      }
+    ],
+    "createdUtc": "2026-06-28T10:00:00Z",
+    "updatedUtc": "2026-06-28T16:00:00Z"
+  },
+  {
+    "id": "task_20260626070907_c28fa16b",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260626179884_90ce77e9",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T08:00:00Z",
+    "pickedUpUtc": "2026-06-26T09:00:00Z",
+    "deliveredUtc": "2026-06-26T11:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T08:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T07:00:00Z",
+    "updatedUtc": "2026-06-26T11:00:00Z"
+  },
+  {
+    "id": "task_20260623090772_c68fcba5",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260623231356_c0582da5",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T12:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-23T11:00:00Z",
+    "updatedUtc": "2026-06-23T13:00:00Z"
+  },
+  {
+    "id": "task_20260703216462_89ecbc51",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260703151915_dc6dafff",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T11:00:00Z",
+    "pickedUpUtc": "2026-07-03T12:00:00Z",
+    "deliveredUtc": "2026-07-03T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-03T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-03T10:00:00Z",
+    "updatedUtc": "2026-07-03T14:00:00Z"
+  },
+  {
+    "id": "task_20260626144435_d4176230",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260626130082_f3d04ffb",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T11:00:00Z",
+    "pickedUpUtc": "2026-06-26T12:00:00Z",
+    "deliveredUtc": "2026-06-26T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T10:00:00Z",
+    "updatedUtc": "2026-06-26T14:00:00Z"
+  },
+  {
+    "id": "task_20260629132935_b1d81887",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260629211368_a1e518a2",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T08:00:00Z",
+    "pickedUpUtc": "2026-06-29T09:00:00Z",
+    "deliveredUtc": "2026-06-29T11:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T08:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T07:00:00Z",
+    "updatedUtc": "2026-06-29T11:00:00Z"
+  },
+  {
+    "id": "task_20260627144637_d40e53ce",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260627060648_de70bd30",
+    "driverId": "driver_20260623210706_12e153a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T11:00:00Z",
+    "pickedUpUtc": "2026-06-27T12:00:00Z",
+    "deliveredUtc": "2026-06-27T14:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Assigned to Pedro Garcia"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T10:00:00Z",
+    "updatedUtc": "2026-06-27T14:00:00Z"
+  },
+  {
+    "id": "task_20260701172145_33cb202e",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260701150109_e4e751de",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T10:00:00Z",
+    "pickedUpUtc": "2026-07-01T11:00:00Z",
+    "deliveredUtc": "2026-07-01T13:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T09:00:00Z",
+    "updatedUtc": "2026-07-01T13:00:00Z"
+  },
+  {
+    "id": "task_20260624083907_b4258e19",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624084468_a79313b8",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-24T09:00:00Z",
+    "pickedUpUtc": "2026-06-24T10:00:00Z",
+    "deliveredUtc": "2026-06-24T14:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T09:00:00Z",
+        "reason": "Assigned to Maria Santos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T08:00:00Z",
+    "updatedUtc": "2026-06-24T14:00:00Z"
+  },
+  {
+    "id": "task_20260624160419_16de66c9",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624119294_84fa4c72",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-24T11:00:00Z",
+    "pickedUpUtc": "2026-06-24T12:00:00Z",
+    "deliveredUtc": "2026-06-24T16:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Assigned to Maria Santos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-24T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T10:00:00Z",
+    "updatedUtc": "2026-06-24T16:00:00Z"
+  },
+  {
+    "id": "task_20260624099681_eb7e2e64",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624094903_a43e558c",
+    "driverId": "driver_20260624227718_96792482",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T10:00:00Z",
+    "pickedUpUtc": "2026-06-24T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T10:00:00Z",
+        "reason": "Assigned to Carlo Aquino"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T09:00:00Z",
+    "updatedUtc": "2026-06-24T12:00:00Z"
+  },
+  {
+    "id": "task_20260701096655_3f6eed9d",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260701175968_dc268108",
+    "driverId": "driver_20260623210706_12e153a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T12:00:00Z",
+    "pickedUpUtc": "2026-07-01T13:00:00Z",
+    "deliveredUtc": "2026-07-01T15:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Assigned to Pedro Garcia"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T11:00:00Z",
+    "updatedUtc": "2026-07-01T15:00:00Z"
+  },
+  {
+    "id": "task_20260630074304_c8a738ab",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260630217288_b89f3a92",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T11:00:00Z",
+    "pickedUpUtc": "2026-06-30T12:00:00Z",
+    "deliveredUtc": "2026-06-30T14:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T10:00:00Z",
+    "updatedUtc": "2026-06-30T14:00:00Z"
+  },
+  {
+    "id": "task_20260625105290_c34201db",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260625227269_980bc81e",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T10:00:00Z",
+    "pickedUpUtc": "2026-06-25T11:00:00Z",
+    "deliveredUtc": "2026-06-25T13:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T09:00:00Z",
+    "updatedUtc": "2026-06-25T13:00:00Z"
+  },
+  {
+    "id": "task_20260622165454_1519fd38",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622077703_0387f74d",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T11:00:00Z",
+    "pickedUpUtc": "2026-06-22T12:00:00Z",
+    "deliveredUtc": "2026-06-22T14:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T10:00:00Z",
+    "updatedUtc": "2026-06-22T14:00:00Z"
+  },
+  {
+    "id": "task_20260626174684_bade8d5d",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260626141240_143ac1c5",
+    "driverId": "driver_20260622141078_65edcfe3",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-26T07:00:00Z",
+    "pickedUpUtc": "2026-06-26T08:00:00Z",
+    "deliveredUtc": "2026-06-26T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T07:00:00Z",
+        "reason": "Assigned to Ana Reyes"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T06:00:00Z",
+    "updatedUtc": "2026-06-26T12:00:00Z"
+  },
+  {
+    "id": "task_20260623150886_85e3ade5",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260623220509_9bdc70d1",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T10:00:00Z",
+    "pickedUpUtc": "2026-06-23T11:00:00Z",
+    "deliveredUtc": "2026-06-23T13:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T13:00:00Z"
+  },
+  {
+    "id": "task_20260624193898_5c311464",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624093274_bff15840",
+    "driverId": "driver_20260623193367_3967e60a",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T09:00:00Z",
+    "pickedUpUtc": "2026-06-24T10:00:00Z",
+    "deliveredUtc": "2026-06-24T12:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T09:00:00Z",
+        "reason": "Assigned to Jose Ramos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T08:00:00Z",
+    "updatedUtc": "2026-06-24T12:00:00Z"
+  },
+  {
+    "id": "task_20260627155414_620af158",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260627126877_c5f8e2f8",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-27T08:00:00Z",
+    "pickedUpUtc": "2026-06-27T09:00:00Z",
+    "deliveredUtc": "2026-06-27T13:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T08:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T07:00:00Z",
+    "updatedUtc": "2026-06-27T13:00:00Z"
+  },
+  {
+    "id": "task_20260625195207_fb3df063",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260625125080_6a8fcacb",
+    "driverId": "driver_20260623193367_3967e60a",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T09:00:00Z",
+    "pickedUpUtc": "2026-06-25T10:00:00Z",
+    "deliveredUtc": "2026-06-25T12:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "Assigned to Jose Ramos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T08:00:00Z",
+    "updatedUtc": "2026-06-25T12:00:00Z"
+  },
+  {
+    "id": "task_20260629215108_f8cbab4c",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260629141447_53c9fe59",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T09:00:00Z",
+    "pickedUpUtc": "2026-06-29T10:00:00Z",
+    "deliveredUtc": "2026-06-29T12:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T09:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T08:00:00Z",
+    "updatedUtc": "2026-06-29T12:00:00Z"
+  },
+  {
+    "id": "task_20260703060383_c2492e5e",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260703124258_268b84b6",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-07-03T10:00:00Z",
+    "updatedUtc": "2026-07-03T10:00:00Z"
+  },
+  {
+    "id": "task_20260702120679_e5b4a1ae",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260702140612_1a9c672a",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T10:00:00Z",
+    "pickedUpUtc": "2026-07-02T11:00:00Z",
+    "deliveredUtc": "2026-07-02T13:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T10:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-02T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T09:00:00Z",
+    "updatedUtc": "2026-07-02T13:00:00Z"
+  },
+  {
+    "id": "task_20260629128417_d9d57b02",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260629082256_94ad6252",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T12:00:00Z",
+    "pickedUpUtc": "2026-06-29T13:00:00Z",
+    "deliveredUtc": "2026-06-29T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T11:00:00Z",
+    "updatedUtc": "2026-06-29T15:00:00Z"
+  },
+  {
+    "id": "task_20260703103089_7316ce64",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260703145524_516c3b0a",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T12:00:00Z",
+    "pickedUpUtc": "2026-07-03T13:00:00Z",
+    "deliveredUtc": "2026-07-03T15:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-03T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-03T11:00:00Z",
+    "updatedUtc": "2026-07-03T15:00:00Z"
+  },
+  {
+    "id": "task_20260630145929_25f88c74",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260630114430_73b0d676",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T09:00:00Z",
+    "pickedUpUtc": "2026-06-30T10:00:00Z",
+    "deliveredUtc": "2026-06-30T12:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T09:00:00Z",
+        "reason": "Assigned to Maria Santos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T08:00:00Z",
+    "updatedUtc": "2026-06-30T12:00:00Z"
+  },
+  {
+    "id": "task_20260628086714_cdcc2d6a",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260628072832_ad5be3c8",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-28T11:00:00Z",
+    "pickedUpUtc": "2026-06-28T12:00:00Z",
+    "deliveredUtc": "2026-06-28T16:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-28T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-28T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T10:00:00Z",
+    "updatedUtc": "2026-06-28T16:00:00Z"
+  },
+  {
+    "id": "task_20260624084111_e7b33085",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624165010_5f4b1a97",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T08:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T08:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-24T09:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-24T07:00:00Z",
+    "updatedUtc": "2026-06-24T09:00:00Z"
+  },
+  {
+    "id": "task_20260629109060_46653497",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260629104037_ec93e596",
+    "driverId": "driver_20260623210706_12e153a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T07:00:00Z",
+    "pickedUpUtc": "2026-06-29T08:00:00Z",
+    "deliveredUtc": "2026-06-29T10:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T07:00:00Z",
+        "reason": "Assigned to Pedro Garcia"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T06:00:00Z",
+    "updatedUtc": "2026-06-29T10:00:00Z"
+  },
+  {
+    "id": "task_20260622112286_a484e035",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622222313_9df2372e",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-22T11:00:00Z",
+    "pickedUpUtc": "2026-06-22T12:00:00Z",
+    "deliveredUtc": "2026-06-22T16:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-22T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T10:00:00Z",
+    "updatedUtc": "2026-06-22T16:00:00Z"
+  },
+  {
+    "id": "task_20260628067681_e550d736",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260628154139_7acc9970",
+    "driverId": "driver_20260623210706_12e153a6",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T12:00:00Z",
+    "pickedUpUtc": "2026-06-28T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Assigned to Pedro Garcia"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T11:00:00Z",
+    "updatedUtc": "2026-06-28T14:00:00Z"
+  },
+  {
+    "id": "task_20260622117517_93608edf",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622198787_5b80b8d1",
+    "driverId": "driver_20260624227718_96792482",
+    "status": 4,
+    "attemptCount": 2,
+    "assignedUtc": "2026-06-22T10:00:00Z",
+    "pickedUpUtc": "2026-06-22T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "Assigned to Carlo Aquino"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T15:00:00Z",
+        "reason": "Address incomplete"
+      }
+    ],
+    "createdUtc": "2026-06-22T09:00:00Z",
+    "updatedUtc": "2026-06-22T15:00:00Z"
+  },
+  {
+    "id": "task_20260625106021_7d8d3ddd",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260625143362_ce63cb1a",
+    "driverId": "driver_20260623193367_3967e60a",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-25T11:00:00Z",
+    "pickedUpUtc": "2026-06-25T12:00:00Z",
+    "deliveredUtc": "2026-06-25T16:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Assigned to Jose Ramos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-25T14:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-25T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T10:00:00Z",
+    "updatedUtc": "2026-06-25T16:00:00Z"
+  },
+  {
+    "id": "task_20260622213776_b466fab6",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260622185301_002ccb25",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T11:00:00Z",
+    "pickedUpUtc": "2026-06-22T12:00:00Z",
+    "deliveredUtc": "2026-06-22T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T10:00:00Z",
+    "updatedUtc": "2026-06-22T14:00:00Z"
+  },
+  {
+    "id": "task_20260623187716_a630ad9d",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260623233575_6545c030",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-23T09:00:00Z",
+    "pickedUpUtc": "2026-06-23T10:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T09:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      }
+    ],
+    "createdUtc": "2026-06-23T08:00:00Z",
+    "updatedUtc": "2026-06-23T12:00:00Z"
+  },
+  {
+    "id": "task_20260703208762_084a3c4b",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260703153539_392612e9",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T11:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-07-03T10:00:00Z",
+    "updatedUtc": "2026-07-03T12:00:00Z"
+  },
+  {
+    "id": "task_20260704083258_d2586d90",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260704117906_a3bfe403",
+    "driverId": "driver_20260623182115_ae1b9f69",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T11:00:00Z",
+    "pickedUpUtc": "2026-07-04T12:00:00Z",
+    "deliveredUtc": "2026-07-04T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Assigned to Liza Mendoza"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T10:00:00Z",
+    "updatedUtc": "2026-07-04T14:00:00Z"
+  },
+  {
+    "id": "task_20260625159277_59ea4936",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260625077771_59b9222c",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T08:00:00Z",
+    "pickedUpUtc": "2026-06-25T09:00:00Z",
+    "deliveredUtc": "2026-06-25T11:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T08:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T07:00:00Z",
+    "updatedUtc": "2026-06-25T11:00:00Z"
+  },
+  {
+    "id": "task_20260704104592_e34f76b4",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260704230647_c21c3fb3",
+    "driverId": "driver_20260624227718_96792482",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-04T11:00:00Z",
+    "pickedUpUtc": "2026-07-04T12:00:00Z",
+    "deliveredUtc": "2026-07-04T16:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Assigned to Carlo Aquino"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-04T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T10:00:00Z",
+    "updatedUtc": "2026-07-04T16:00:00Z"
+  },
+  {
+    "id": "task_20260627109803_68c690b2",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260627220863_e4aa786d",
+    "driverId": "driver_20260623103163_2976aab2",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T11:00:00Z",
+    "pickedUpUtc": "2026-06-27T12:00:00Z",
+    "deliveredUtc": "2026-06-27T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Assigned to Ramon Bautista"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T10:00:00Z",
+    "updatedUtc": "2026-06-27T14:00:00Z"
+  },
+  {
+    "id": "task_20260702233544_a005f5e1",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260702137961_3ccff6eb",
+    "driverId": "driver_20260624074526_d4d60735",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-02T09:00:00Z",
+    "pickedUpUtc": "2026-07-02T10:00:00Z",
+    "deliveredUtc": "2026-07-02T14:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T09:00:00Z",
+        "reason": "Assigned to Grace Villanueva"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-02T12:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-02T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-02T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T08:00:00Z",
+    "updatedUtc": "2026-07-02T14:00:00Z"
+  },
+  {
+    "id": "task_20260624202639_6334fa2a",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260624136496_fa207403",
+    "driverId": "driver_20260623182527_cdbcc653",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T12:00:00Z",
+    "pickedUpUtc": "2026-06-24T13:00:00Z",
+    "deliveredUtc": "2026-06-24T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Assigned to Juan Dela Cruz"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T11:00:00Z",
+    "updatedUtc": "2026-06-24T15:00:00Z"
+  },
+  {
+    "id": "task_20260627234972_18c180d2",
+    "tenantId": "manila-swift",
+    "parcelId": "parcel_20260627176857_0b6c03c8",
+    "driverId": "driver_20260622189504_06ba8cd3",
+    "status": 4,
+    "attemptCount": 2,
+    "assignedUtc": "2026-06-27T08:00:00Z",
+    "pickedUpUtc": "2026-06-27T09:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T08:00:00Z",
+        "reason": "Assigned to Maria Santos"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "Access to building denied"
+      }
+    ],
+    "createdUtc": "2026-06-27T07:00:00Z",
+    "updatedUtc": "2026-06-27T13:00:00Z"
+  }
+]

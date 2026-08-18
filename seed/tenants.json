@@ -1,0 +1,20 @@
+[
+  {
+    "id": "nusantara-express",
+    "name": "Nusantara Express",
+    "countryCode": "ID",
+    "isActive": true
+  },
+  {
+    "id": "manila-swift",
+    "name": "Manila Swift Logistics",
+    "countryCode": "PH",
+    "isActive": true
+  },
+  {
+    "id": "garuda-cargo",
+    "name": "Garuda Cargo Lines",
+    "countryCode": "ID",
+    "isActive": true
+  }
+]

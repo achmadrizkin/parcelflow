@@ -1,0 +1,443 @@
+[
+  {
+    "id": "shift_20260623070040_4970ed9a",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624089184_06671ad1",
+    "startedUtc": "2026-06-23T07:00:00Z",
+    "endedUtc": "2026-06-23T16:00:00Z",
+    "createdUtc": "2026-06-23T07:00:00Z",
+    "updatedUtc": "2026-06-23T16:00:00Z"
+  },
+  {
+    "id": "shift_20260703182974_72d78bdd",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624089184_06671ad1",
+    "startedUtc": "2026-07-03T07:00:00Z",
+    "endedUtc": "2026-07-03T17:00:00Z",
+    "createdUtc": "2026-07-03T07:00:00Z",
+    "updatedUtc": "2026-07-03T16:00:00Z"
+  },
+  {
+    "id": "shift_20260702080768_04dd7054",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624089184_06671ad1",
+    "startedUtc": "2026-07-02T06:00:00Z",
+    "endedUtc": "2026-07-02T15:00:00Z",
+    "createdUtc": "2026-07-02T06:00:00Z",
+    "updatedUtc": "2026-07-02T15:00:00Z"
+  },
+  {
+    "id": "shift_20260627099195_8c7e6f42",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624089184_06671ad1",
+    "startedUtc": "2026-06-27T07:00:00Z",
+    "endedUtc": "2026-06-27T17:00:00Z",
+    "createdUtc": "2026-06-27T07:00:00Z",
+    "updatedUtc": "2026-06-27T16:00:00Z"
+  },
+  {
+    "id": "shift_20260624089146_c6b33fe6",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624089184_06671ad1",
+    "startedUtc": "2026-06-24T09:00:00Z",
+    "endedUtc": "2026-06-24T18:00:00Z",
+    "createdUtc": "2026-06-24T09:00:00Z",
+    "updatedUtc": "2026-06-24T18:00:00Z"
+  },
+  {
+    "id": "shift_20260626227497_cb3cf8ca",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "startedUtc": "2026-06-26T09:00:00Z",
+    "endedUtc": "2026-06-26T19:00:00Z",
+    "createdUtc": "2026-06-26T09:00:00Z",
+    "updatedUtc": "2026-06-26T18:00:00Z"
+  },
+  {
+    "id": "shift_20260623076464_1c612ec2",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "startedUtc": "2026-06-23T09:00:00Z",
+    "endedUtc": "2026-06-23T18:00:00Z",
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T18:00:00Z"
+  },
+  {
+    "id": "shift_20260622225663_83efa9f3",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "startedUtc": "2026-06-22T06:00:00Z",
+    "endedUtc": "2026-06-22T16:00:00Z",
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T15:00:00Z"
+  },
+  {
+    "id": "shift_20260625097637_4a90cd0c",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "startedUtc": "2026-06-25T07:00:00Z",
+    "endedUtc": "2026-06-25T16:00:00Z",
+    "createdUtc": "2026-06-25T07:00:00Z",
+    "updatedUtc": "2026-06-25T16:00:00Z"
+  },
+  {
+    "id": "shift_20260701109103_aa143cd8",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622067811_17fc695a",
+    "startedUtc": "2026-07-01T09:00:00Z",
+    "endedUtc": "2026-07-01T19:00:00Z",
+    "createdUtc": "2026-07-01T09:00:00Z",
+    "updatedUtc": "2026-07-01T18:00:00Z"
+  },
+  {
+    "id": "shift_20260627197228_f982f4e0",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622067811_17fc695a",
+    "startedUtc": "2026-06-27T06:00:00Z",
+    "endedUtc": "2026-06-27T15:00:00Z",
+    "createdUtc": "2026-06-27T06:00:00Z",
+    "updatedUtc": "2026-06-27T15:00:00Z"
+  },
+  {
+    "id": "shift_20260625197903_8b48f496",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622067811_17fc695a",
+    "startedUtc": "2026-06-25T06:00:00Z",
+    "endedUtc": "2026-06-25T16:00:00Z",
+    "createdUtc": "2026-06-25T06:00:00Z",
+    "updatedUtc": "2026-06-25T15:00:00Z"
+  },
+  {
+    "id": "shift_20260628157858_40ef3935",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "startedUtc": "2026-06-28T09:00:00Z",
+    "endedUtc": "2026-06-28T19:00:00Z",
+    "createdUtc": "2026-06-28T09:00:00Z",
+    "updatedUtc": "2026-06-28T18:00:00Z"
+  },
+  {
+    "id": "shift_20260629153610_c9dc72b8",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "startedUtc": "2026-06-29T06:00:00Z",
+    "endedUtc": "2026-06-29T14:00:00Z",
+    "createdUtc": "2026-06-29T06:00:00Z",
+    "updatedUtc": "2026-06-29T15:00:00Z"
+  },
+  {
+    "id": "shift_20260622123209_bba205ca",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "startedUtc": "2026-06-22T08:00:00Z",
+    "endedUtc": "2026-06-22T18:00:00Z",
+    "createdUtc": "2026-06-22T08:00:00Z",
+    "updatedUtc": "2026-06-22T17:00:00Z"
+  },
+  {
+    "id": "shift_20260704071622_5a304528",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622177757_96da1dac",
+    "startedUtc": "2026-07-04T07:00:00Z",
+    "endedUtc": "2026-07-04T17:00:00Z",
+    "createdUtc": "2026-07-04T07:00:00Z",
+    "updatedUtc": "2026-07-04T16:00:00Z"
+  },
+  {
+    "id": "shift_20260701228505_2cd2a404",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622177757_96da1dac",
+    "startedUtc": "2026-07-01T08:00:00Z",
+    "endedUtc": "2026-07-01T18:00:00Z",
+    "createdUtc": "2026-07-01T08:00:00Z",
+    "updatedUtc": "2026-07-01T17:00:00Z"
+  },
+  {
+    "id": "shift_20260627185444_a1b970d0",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622177757_96da1dac",
+    "startedUtc": "2026-06-27T09:00:00Z",
+    "endedUtc": "2026-06-27T17:00:00Z",
+    "createdUtc": "2026-06-27T09:00:00Z",
+    "updatedUtc": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "shift_20260623112845_0b36e356",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624170785_571aa876",
+    "startedUtc": "2026-06-23T08:00:00Z",
+    "endedUtc": "2026-06-23T16:00:00Z",
+    "createdUtc": "2026-06-23T08:00:00Z",
+    "updatedUtc": "2026-06-23T17:00:00Z"
+  },
+  {
+    "id": "shift_20260703142731_eef16694",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624170785_571aa876",
+    "startedUtc": "2026-07-03T06:00:00Z",
+    "endedUtc": "2026-07-03T15:00:00Z",
+    "createdUtc": "2026-07-03T06:00:00Z",
+    "updatedUtc": "2026-07-03T15:00:00Z"
+  },
+  {
+    "id": "shift_20260629202352_7930ba20",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624170785_571aa876",
+    "startedUtc": "2026-06-29T09:00:00Z",
+    "endedUtc": "2026-06-29T18:00:00Z",
+    "createdUtc": "2026-06-29T09:00:00Z",
+    "updatedUtc": "2026-06-29T18:00:00Z"
+  },
+  {
+    "id": "shift_20260622229581_30ec2796",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624170785_571aa876",
+    "startedUtc": "2026-06-22T06:00:00Z",
+    "endedUtc": "2026-06-22T15:00:00Z",
+    "createdUtc": "2026-06-22T06:00:00Z",
+    "updatedUtc": "2026-06-22T15:00:00Z"
+  },
+  {
+    "id": "shift_20260704156474_6fdc0bad",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623086793_17be3111",
+    "startedUtc": "2026-07-04T06:00:00Z",
+    "endedUtc": "2026-07-04T15:00:00Z",
+    "createdUtc": "2026-07-04T06:00:00Z",
+    "updatedUtc": "2026-07-04T15:00:00Z"
+  },
+  {
+    "id": "shift_20260622161356_56cb1ab0",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623086793_17be3111",
+    "startedUtc": "2026-06-22T09:00:00Z",
+    "endedUtc": "2026-06-22T17:00:00Z",
+    "createdUtc": "2026-06-22T09:00:00Z",
+    "updatedUtc": "2026-06-22T18:00:00Z"
+  },
+  {
+    "id": "shift_20260702190422_5e0a72ab",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623086793_17be3111",
+    "startedUtc": "2026-07-02T09:00:00Z",
+    "endedUtc": "2026-07-02T19:00:00Z",
+    "createdUtc": "2026-07-02T09:00:00Z",
+    "updatedUtc": "2026-07-02T18:00:00Z"
+  },
+  {
+    "id": "shift_20260627081656_ba220065",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623086793_17be3111",
+    "startedUtc": "2026-06-27T08:00:00Z",
+    "endedUtc": "2026-06-27T17:00:00Z",
+    "createdUtc": "2026-06-27T08:00:00Z",
+    "updatedUtc": "2026-06-27T17:00:00Z"
+  },
+  {
+    "id": "shift_20260626172881_9a3a6103",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623086793_17be3111",
+    "startedUtc": "2026-06-26T06:00:00Z",
+    "endedUtc": "2026-06-26T14:00:00Z",
+    "createdUtc": "2026-06-26T06:00:00Z",
+    "updatedUtc": "2026-06-26T15:00:00Z"
+  },
+  {
+    "id": "shift_20260627176894_9a45693d",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "startedUtc": "2026-06-27T08:00:00Z",
+    "endedUtc": "2026-06-27T18:00:00Z",
+    "createdUtc": "2026-06-27T08:00:00Z",
+    "updatedUtc": "2026-06-27T17:00:00Z"
+  },
+  {
+    "id": "shift_20260623103684_b0946d2a",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "startedUtc": "2026-06-23T09:00:00Z",
+    "endedUtc": "2026-06-23T18:00:00Z",
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T18:00:00Z"
+  },
+  {
+    "id": "shift_20260703177212_0ad7c9a2",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "startedUtc": "2026-07-03T08:00:00Z",
+    "endedUtc": "2026-07-03T18:00:00Z",
+    "createdUtc": "2026-07-03T08:00:00Z",
+    "updatedUtc": "2026-07-03T17:00:00Z"
+  },
+  {
+    "id": "shift_20260704221179_ff86cc31",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "startedUtc": "2026-07-04T08:00:00Z",
+    "endedUtc": "2026-07-04T17:00:00Z",
+    "createdUtc": "2026-07-04T08:00:00Z",
+    "updatedUtc": "2026-07-04T17:00:00Z"
+  },
+  {
+    "id": "shift_20260626227633_fae3114b",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "startedUtc": "2026-06-26T08:00:00Z",
+    "endedUtc": "2026-06-26T16:00:00Z",
+    "createdUtc": "2026-06-26T08:00:00Z",
+    "updatedUtc": "2026-06-26T17:00:00Z"
+  },
+  {
+    "id": "shift_20260702194502_cd14a03e",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "startedUtc": "2026-07-02T08:00:00Z",
+    "endedUtc": "2026-07-02T18:00:00Z",
+    "createdUtc": "2026-07-02T08:00:00Z",
+    "updatedUtc": "2026-07-02T17:00:00Z"
+  },
+  {
+    "id": "shift_20260704068163_248d31ec",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "startedUtc": "2026-07-04T07:00:00Z",
+    "endedUtc": "2026-07-04T17:00:00Z",
+    "createdUtc": "2026-07-04T07:00:00Z",
+    "updatedUtc": "2026-07-04T16:00:00Z"
+  },
+  {
+    "id": "shift_20260628069122_20509c62",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "startedUtc": "2026-06-28T09:00:00Z",
+    "endedUtc": "2026-06-28T17:00:00Z",
+    "createdUtc": "2026-06-28T09:00:00Z",
+    "updatedUtc": "2026-06-28T18:00:00Z"
+  },
+  {
+    "id": "shift_20260704208699_084a6780",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "startedUtc": "2026-07-04T09:00:00Z",
+    "endedUtc": "2026-07-04T19:00:00Z",
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T18:00:00Z"
+  },
+  {
+    "id": "shift_20260702177944_f2e6195f",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "startedUtc": "2026-07-02T07:00:00Z",
+    "endedUtc": "2026-07-02T16:00:00Z",
+    "createdUtc": "2026-07-02T07:00:00Z",
+    "updatedUtc": "2026-07-02T16:00:00Z"
+  },
+  {
+    "id": "shift_20260627176376_c359810a",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "startedUtc": "2026-06-27T08:00:00Z",
+    "endedUtc": "2026-06-27T16:00:00Z",
+    "createdUtc": "2026-06-27T08:00:00Z",
+    "updatedUtc": "2026-06-27T17:00:00Z"
+  },
+  {
+    "id": "shift_20260703198794_5df06e8c",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "startedUtc": "2026-07-03T07:00:00Z",
+    "endedUtc": "2026-07-03T16:00:00Z",
+    "createdUtc": "2026-07-03T07:00:00Z",
+    "updatedUtc": "2026-07-03T16:00:00Z"
+  },
+  {
+    "id": "shift_20260702190821_848af440",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623080916_daf61a26",
+    "startedUtc": "2026-07-02T07:00:00Z",
+    "endedUtc": "2026-07-02T16:00:00Z",
+    "createdUtc": "2026-07-02T07:00:00Z",
+    "updatedUtc": "2026-07-02T16:00:00Z"
+  },
+  {
+    "id": "shift_20260626128623_c6641285",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623080916_daf61a26",
+    "startedUtc": "2026-06-26T06:00:00Z",
+    "endedUtc": "2026-06-26T15:00:00Z",
+    "createdUtc": "2026-06-26T06:00:00Z",
+    "updatedUtc": "2026-06-26T15:00:00Z"
+  },
+  {
+    "id": "shift_20260625116248_ff11c8ba",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623080916_daf61a26",
+    "startedUtc": "2026-06-25T09:00:00Z",
+    "endedUtc": "2026-06-25T19:00:00Z",
+    "createdUtc": "2026-06-25T09:00:00Z",
+    "updatedUtc": "2026-06-25T18:00:00Z"
+  },
+  {
+    "id": "shift_20260623188765_333ee344",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623080916_daf61a26",
+    "startedUtc": "2026-06-23T08:00:00Z",
+    "endedUtc": "2026-06-23T16:00:00Z",
+    "createdUtc": "2026-06-23T08:00:00Z",
+    "updatedUtc": "2026-06-23T17:00:00Z"
+  },
+  {
+    "id": "shift_20260622079412_73b911d8",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623080916_daf61a26",
+    "startedUtc": "2026-06-22T07:00:00Z",
+    "endedUtc": "2026-06-22T15:00:00Z",
+    "createdUtc": "2026-06-22T07:00:00Z",
+    "updatedUtc": "2026-06-22T16:00:00Z"
+  },
+  {
+    "id": "shift_20260705077023_8ccc9cea",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  },
+  {
+    "id": "shift_20260705202126_4a552ea0",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  },
+  {
+    "id": "shift_20260705138631_d9f2dd0d",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260624170785_571aa876",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  },
+  {
+    "id": "shift_20260705101289_b6391f04",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  },
+  {
+    "id": "shift_20260705227169_2c913a7c",
+    "tenantId": "nusantara-express",
+    "driverId": "driver_20260623080916_daf61a26",
+    "startedUtc": "2026-07-05T07:00:00Z",
+    "endedUtc": null,
+    "createdUtc": "2026-07-05T07:00:00Z",
+    "updatedUtc": "2026-07-05T07:00:00Z"
+  }
+]

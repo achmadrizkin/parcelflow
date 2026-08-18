@@ -1,0 +1,3543 @@
+[
+  {
+    "id": "task_20260625074663_3aa2e4f9",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260625129986_b3aa7efe",
+    "driverId": "driver_20260624089184_06671ad1",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T12:00:00Z",
+    "pickedUpUtc": "2026-06-25T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Assigned to Budi Santoso"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T14:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T11:00:00Z",
+    "updatedUtc": "2026-06-25T14:00:00Z"
+  },
+  {
+    "id": "task_20260704096603_3f22faf8",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704165162_448aaa9e",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T09:00:00Z",
+    "pickedUpUtc": "2026-07-04T10:00:00Z",
+    "deliveredUtc": "2026-07-04T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T09:00:00Z",
+        "reason": "Assigned to Rina Marlina"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T08:00:00Z",
+    "updatedUtc": "2026-07-04T12:00:00Z"
+  },
+  {
+    "id": "task_20260701170666_98ae4334",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260701154895_382567b8",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 4,
+    "attemptCount": 2,
+    "assignedUtc": "2026-07-01T10:00:00Z",
+    "pickedUpUtc": "2026-07-01T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-01T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-01T15:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      }
+    ],
+    "createdUtc": "2026-07-01T09:00:00Z",
+    "updatedUtc": "2026-07-01T15:00:00Z"
+  },
+  {
+    "id": "task_20260629129045_f8cda88b",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260629125906_f89897b9",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T11:00:00Z",
+    "pickedUpUtc": "2026-06-29T12:00:00Z",
+    "deliveredUtc": "2026-06-29T14:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T11:00:00Z",
+        "reason": "Assigned to Rina Marlina"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T10:00:00Z",
+    "updatedUtc": "2026-06-29T14:00:00Z"
+  },
+  {
+    "id": "task_20260705188085_04fc6d82",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260705138235_d777a477",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T12:00:00Z",
+    "pickedUpUtc": "2026-07-05T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T11:00:00Z",
+    "updatedUtc": "2026-07-05T14:00:00Z"
+  },
+  {
+    "id": "task_20260627184592_f264accc",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260627122770_0ed42f1a",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-27T09:00:00Z",
+    "pickedUpUtc": "2026-06-27T10:00:00Z",
+    "deliveredUtc": "2026-06-27T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "Assigned to Rina Marlina"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T08:00:00Z",
+    "updatedUtc": "2026-06-27T14:00:00Z"
+  },
+  {
+    "id": "task_20260625214221_8dcdcd03",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260625112730_b683d2e6",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T11:00:00Z",
+    "pickedUpUtc": "2026-06-25T12:00:00Z",
+    "deliveredUtc": "2026-06-25T14:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Assigned to Rizki Pratama"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T10:00:00Z",
+    "updatedUtc": "2026-06-25T14:00:00Z"
+  },
+  {
+    "id": "task_20260623094684_b92da22b",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623225439_0f1259e0",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T12:00:00Z",
+    "pickedUpUtc": "2026-06-23T13:00:00Z",
+    "deliveredUtc": "2026-06-23T15:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Assigned to Hendra Gunawan"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T11:00:00Z",
+    "updatedUtc": "2026-06-23T15:00:00Z"
+  },
+  {
+    "id": "task_20260704229392_1931e9ee",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704166708_30beb45f",
+    "driverId": "driver_20260624089184_06671ad1",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T10:00:00Z",
+    "pickedUpUtc": "2026-07-04T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Assigned to Budi Santoso"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T12:00:00Z"
+  },
+  {
+    "id": "task_20260628079761_71710434",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260628148946_ccf3a171",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-28T12:00:00Z",
+    "pickedUpUtc": "2026-06-28T13:00:00Z",
+    "deliveredUtc": "2026-06-28T17:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Assigned to Rina Marlina"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-28T15:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-28T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-28T17:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T11:00:00Z",
+    "updatedUtc": "2026-06-28T17:00:00Z"
+  },
+  {
+    "id": "task_20260623179277_490617f2",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623103597_680ac07a",
+    "driverId": "driver_20260623086793_17be3111",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T08:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T08:00:00Z",
+        "reason": "Assigned to Fitri Handayani"
+      }
+    ],
+    "createdUtc": "2026-06-23T07:00:00Z",
+    "updatedUtc": "2026-06-23T08:00:00Z"
+  },
+  {
+    "id": "task_20260703074985_0cd620c2",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260703205691_a97065e1",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "status": 4,
+    "attemptCount": 2,
+    "assignedUtc": "2026-07-03T12:00:00Z",
+    "pickedUpUtc": "2026-07-03T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Assigned to Hendra Gunawan"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-03T15:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-03T16:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-03T17:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      }
+    ],
+    "createdUtc": "2026-07-03T11:00:00Z",
+    "updatedUtc": "2026-07-03T17:00:00Z"
+  },
+  {
+    "id": "task_20260624070418_9e8fc965",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260624193124_14822f53",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T07:00:00Z",
+    "pickedUpUtc": "2026-06-24T08:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T07:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T09:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T09:00:00Z"
+  },
+  {
+    "id": "task_20260628079016_02627f73",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260628213006_90b2b633",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T12:00:00Z",
+    "pickedUpUtc": "2026-06-28T13:00:00Z",
+    "deliveredUtc": "2026-06-28T15:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-28T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T11:00:00Z",
+    "updatedUtc": "2026-06-28T15:00:00Z"
+  },
+  {
+    "id": "task_20260623231435_8768a84f",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623115877_8181a8cc",
+    "driverId": "driver_20260624089184_06671ad1",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T11:00:00Z",
+    "pickedUpUtc": "2026-06-23T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Assigned to Budi Santoso"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T10:00:00Z",
+    "updatedUtc": "2026-06-23T13:00:00Z"
+  },
+  {
+    "id": "task_20260702149884_341ef40b",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702138480_ee87905e",
+    "driverId": "driver_20260623080916_daf61a26",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T11:00:00Z",
+    "pickedUpUtc": "2026-07-02T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T11:00:00Z",
+        "reason": "Assigned to Yusuf Maulana"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T13:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T10:00:00Z",
+    "updatedUtc": "2026-07-02T13:00:00Z"
+  },
+  {
+    "id": "task_20260702175824_8d3aed99",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702192489_7d106c60",
+    "driverId": "driver_20260623086793_17be3111",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T09:00:00Z",
+    "pickedUpUtc": "2026-07-02T10:00:00Z",
+    "deliveredUtc": "2026-07-02T12:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T09:00:00Z",
+        "reason": "Assigned to Fitri Handayani"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-02T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T08:00:00Z",
+    "updatedUtc": "2026-07-02T12:00:00Z"
+  },
+  {
+    "id": "task_20260623115070_ae9bec36",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623099073_8babce3b",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T12:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Assigned to Rizki Pratama"
+      }
+    ],
+    "createdUtc": "2026-06-23T11:00:00Z",
+    "updatedUtc": "2026-06-23T12:00:00Z"
+  },
+  {
+    "id": "task_20260702147080_c84a7b28",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702152714_c7b5b2bc",
+    "driverId": "driver_20260623086793_17be3111",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T07:00:00Z",
+    "pickedUpUtc": "2026-07-02T08:00:00Z",
+    "deliveredUtc": "2026-07-02T10:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T07:00:00Z",
+        "reason": "Assigned to Fitri Handayani"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-02T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T06:00:00Z",
+    "updatedUtc": "2026-07-02T10:00:00Z"
+  },
+  {
+    "id": "task_20260626110627_6601ddd0",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260626088336_61ee411a",
+    "driverId": "driver_20260624170785_571aa876",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T08:00:00Z",
+    "pickedUpUtc": "2026-06-26T09:00:00Z",
+    "deliveredUtc": "2026-06-26T11:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T08:00:00Z",
+        "reason": "Assigned to Andi Saputra"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T07:00:00Z",
+    "updatedUtc": "2026-06-26T11:00:00Z"
+  },
+  {
+    "id": "task_20260704129590_09cb3942",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704152050_a43825b5",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T09:00:00Z",
+    "pickedUpUtc": "2026-07-04T10:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T09:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T08:00:00Z",
+    "updatedUtc": "2026-07-04T11:00:00Z"
+  },
+  {
+    "id": "task_20260701174309_006ed6e3",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260701150619_ba81edd9",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T10:00:00Z",
+    "pickedUpUtc": "2026-07-01T11:00:00Z",
+    "deliveredUtc": "2026-07-01T13:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "Assigned to Rina Marlina"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T09:00:00Z",
+    "updatedUtc": "2026-07-01T13:00:00Z"
+  },
+  {
+    "id": "task_20260627137504_8dedf9fb",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260627078343_f2e9702d",
+    "driverId": "driver_20260622067811_17fc695a",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-27T10:00:00Z",
+    "pickedUpUtc": "2026-06-27T11:00:00Z",
+    "deliveredUtc": "2026-06-27T15:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "Assigned to Dewi Lestari"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-27T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T09:00:00Z",
+    "updatedUtc": "2026-06-27T15:00:00Z"
+  },
+  {
+    "id": "task_20260701175909_acf5e81e",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260701138892_67f48ad5",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T11:00:00Z",
+    "pickedUpUtc": "2026-07-01T12:00:00Z",
+    "deliveredUtc": "2026-07-01T14:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Assigned to Rizki Pratama"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T10:00:00Z",
+    "updatedUtc": "2026-07-01T14:00:00Z"
+  },
+  {
+    "id": "task_20260702184554_9c7c7377",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702134392_83f4a9a9",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T07:00:00Z",
+    "pickedUpUtc": "2026-07-02T08:00:00Z",
+    "deliveredUtc": "2026-07-02T10:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T07:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-02T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T06:00:00Z",
+    "updatedUtc": "2026-07-02T10:00:00Z"
+  },
+  {
+    "id": "task_20260703125325_eadf5085",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260703160657_7e8f8095",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T12:00:00Z",
+    "pickedUpUtc": "2026-07-03T13:00:00Z",
+    "deliveredUtc": "2026-07-03T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-03T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-03T11:00:00Z",
+    "updatedUtc": "2026-07-03T15:00:00Z"
+  },
+  {
+    "id": "task_20260702184433_7337c599",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702206518_986f9025",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-02T11:00:00Z",
+    "pickedUpUtc": "2026-07-02T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T11:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-02T14:00:00Z",
+        "reason": "Recipient refused parcel"
+      }
+    ],
+    "createdUtc": "2026-07-02T10:00:00Z",
+    "updatedUtc": "2026-07-02T14:00:00Z"
+  },
+  {
+    "id": "task_20260704120623_620e99d3",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704187034_a07295e9",
+    "driverId": "driver_20260622067811_17fc695a",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T11:00:00Z",
+    "pickedUpUtc": "2026-07-04T12:00:00Z",
+    "deliveredUtc": "2026-07-04T14:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Assigned to Dewi Lestari"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T10:00:00Z",
+    "updatedUtc": "2026-07-04T14:00:00Z"
+  },
+  {
+    "id": "task_20260628210913_6160a6b4",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260628146738_8ae8905b",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T10:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T10:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-28T09:00:00Z",
+    "updatedUtc": "2026-06-28T11:00:00Z"
+  },
+  {
+    "id": "task_20260627235341_addc3e13",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260627162232_da7b9095",
+    "driverId": "driver_20260623086793_17be3111",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T09:00:00Z",
+    "pickedUpUtc": "2026-06-27T10:00:00Z",
+    "deliveredUtc": "2026-06-27T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "Assigned to Fitri Handayani"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T08:00:00Z",
+    "updatedUtc": "2026-06-27T12:00:00Z"
+  },
+  {
+    "id": "task_20260624159379_53cd6268",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260624200017_06e745f9",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T11:00:00Z",
+    "pickedUpUtc": "2026-06-24T12:00:00Z",
+    "deliveredUtc": "2026-06-24T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Assigned to Rizki Pratama"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T10:00:00Z",
+    "updatedUtc": "2026-06-24T14:00:00Z"
+  },
+  {
+    "id": "task_20260704230853_0a4e5b70",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704132943_c083b73a",
+    "driverId": "driver_20260624089184_06671ad1",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T10:00:00Z",
+    "pickedUpUtc": "2026-07-04T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Assigned to Budi Santoso"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T12:00:00Z"
+  },
+  {
+    "id": "task_20260625103984_9b1bc895",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260625065342_9f0fda8d",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-25T08:00:00Z",
+    "pickedUpUtc": "2026-06-25T09:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T08:00:00Z",
+        "reason": "Assigned to Hendra Gunawan"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Address incomplete"
+      }
+    ],
+    "createdUtc": "2026-06-25T07:00:00Z",
+    "updatedUtc": "2026-06-25T11:00:00Z"
+  },
+  {
+    "id": "task_20260626139058_d9acd158",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260626211698_0692dc63",
+    "driverId": "driver_20260623080916_daf61a26",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T07:00:00Z",
+    "pickedUpUtc": "2026-06-26T08:00:00Z",
+    "deliveredUtc": "2026-06-26T10:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T07:00:00Z",
+        "reason": "Assigned to Yusuf Maulana"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T06:00:00Z",
+    "updatedUtc": "2026-06-26T10:00:00Z"
+  },
+  {
+    "id": "task_20260704154945_a2b5b498",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704070766_58e25888",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T11:00:00Z",
+    "pickedUpUtc": "2026-07-04T12:00:00Z",
+    "deliveredUtc": "2026-07-04T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T10:00:00Z",
+    "updatedUtc": "2026-07-04T14:00:00Z"
+  },
+  {
+    "id": "task_20260624124355_d4aac9a3",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260624196772_f7294951",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T12:00:00Z",
+    "pickedUpUtc": "2026-06-24T13:00:00Z",
+    "deliveredUtc": "2026-06-24T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T11:00:00Z",
+    "updatedUtc": "2026-06-24T15:00:00Z"
+  },
+  {
+    "id": "task_20260625216278_b380c73a",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260625209382_9c3eb2d5",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T10:00:00Z",
+    "pickedUpUtc": "2026-06-25T11:00:00Z",
+    "deliveredUtc": "2026-06-25T13:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T09:00:00Z",
+    "updatedUtc": "2026-06-25T13:00:00Z"
+  },
+  {
+    "id": "task_20260623123780_4e6384bb",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623166542_7d137018",
+    "driverId": "driver_20260623080916_daf61a26",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T08:00:00Z",
+    "pickedUpUtc": "2026-06-23T09:00:00Z",
+    "deliveredUtc": "2026-06-23T11:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T08:00:00Z",
+        "reason": "Assigned to Yusuf Maulana"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T07:00:00Z",
+    "updatedUtc": "2026-06-23T11:00:00Z"
+  },
+  {
+    "id": "task_20260630200473_f36cb62b",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260630150113_6cedd15d",
+    "driverId": "driver_20260622067811_17fc695a",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-30T11:00:00Z",
+    "pickedUpUtc": "2026-06-30T12:00:00Z",
+    "deliveredUtc": "2026-06-30T16:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Assigned to Dewi Lestari"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-30T14:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-30T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T10:00:00Z",
+    "updatedUtc": "2026-06-30T16:00:00Z"
+  },
+  {
+    "id": "task_20260703074293_8da8eee4",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260703197530_98c7472a",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T11:00:00Z",
+    "pickedUpUtc": "2026-07-03T12:00:00Z",
+    "deliveredUtc": "2026-07-03T14:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-03T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-03T10:00:00Z",
+    "updatedUtc": "2026-07-03T14:00:00Z"
+  },
+  {
+    "id": "task_20260702185233_1d34d08e",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702086892_df6a8f93",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-07-02T09:00:00Z",
+    "updatedUtc": "2026-07-02T09:00:00Z"
+  },
+  {
+    "id": "task_20260705091051_8edddfcd",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260705165043_7de31a51",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-07-05T06:00:00Z",
+    "updatedUtc": "2026-07-05T06:00:00Z"
+  },
+  {
+    "id": "task_20260704222798_0f6b40d0",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704218942_989bc4da",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T10:00:00Z",
+    "pickedUpUtc": "2026-07-04T11:00:00Z",
+    "deliveredUtc": "2026-07-04T13:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Assigned to Hendra Gunawan"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T13:00:00Z"
+  },
+  {
+    "id": "task_20260704215664_784c2f29",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704223975_3605bf54",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-04T08:00:00Z",
+    "pickedUpUtc": "2026-07-04T09:00:00Z",
+    "deliveredUtc": "2026-07-04T13:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T08:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T07:00:00Z",
+    "updatedUtc": "2026-07-04T13:00:00Z"
+  },
+  {
+    "id": "task_20260703097286_1247ea4e",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260703078659_aff8754d",
+    "driverId": "driver_20260624089184_06671ad1",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-03T10:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T10:00:00Z",
+        "reason": "Assigned to Budi Santoso"
+      }
+    ],
+    "createdUtc": "2026-07-03T09:00:00Z",
+    "updatedUtc": "2026-07-03T10:00:00Z"
+  },
+  {
+    "id": "task_20260624189445_7010f719",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260624215987_bfbbb17f",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-24T09:00:00Z",
+    "pickedUpUtc": "2026-06-24T10:00:00Z",
+    "deliveredUtc": "2026-06-24T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T09:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T08:00:00Z",
+    "updatedUtc": "2026-06-24T12:00:00Z"
+  },
+  {
+    "id": "task_20260703230789_7135f221",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260703218259_40181c6e",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-03T09:00:00Z",
+    "pickedUpUtc": "2026-07-03T10:00:00Z",
+    "deliveredUtc": "2026-07-03T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-03T09:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-03T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-03T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-03T12:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-03T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-03T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-03T08:00:00Z",
+    "updatedUtc": "2026-07-03T14:00:00Z"
+  },
+  {
+    "id": "task_20260702164976_d045dd1c",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702083918_785299f4",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-02T10:00:00Z",
+    "pickedUpUtc": "2026-07-02T11:00:00Z",
+    "deliveredUtc": "2026-07-02T15:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T10:00:00Z",
+        "reason": "Assigned to Rina Marlina"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-02T13:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-02T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-02T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T09:00:00Z",
+    "updatedUtc": "2026-07-02T15:00:00Z"
+  },
+  {
+    "id": "task_20260626073529_341c6494",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260626090388_f85e06a1",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T09:00:00Z",
+    "pickedUpUtc": "2026-06-26T10:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T09:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T08:00:00Z",
+    "updatedUtc": "2026-06-26T11:00:00Z"
+  },
+  {
+    "id": "task_20260630089743_762172ed",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260630135505_70286046",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T08:00:00Z",
+    "pickedUpUtc": "2026-06-30T09:00:00Z",
+    "deliveredUtc": "2026-06-30T11:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T08:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T07:00:00Z",
+    "updatedUtc": "2026-06-30T11:00:00Z"
+  },
+  {
+    "id": "task_20260629193232_bf0d073d",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260629136509_82456fb4",
+    "driverId": "driver_20260622067811_17fc695a",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T12:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Assigned to Dewi Lestari"
+      }
+    ],
+    "createdUtc": "2026-06-29T11:00:00Z",
+    "updatedUtc": "2026-06-29T12:00:00Z"
+  },
+  {
+    "id": "task_20260705177059_89e06ab3",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260705132416_c5ce099c",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T07:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T07:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-07-05T08:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-07-05T06:00:00Z",
+    "updatedUtc": "2026-07-05T08:00:00Z"
+  },
+  {
+    "id": "task_20260630159937_62d60e93",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260630158883_749176f4",
+    "driverId": "driver_20260623080916_daf61a26",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-30T11:00:00Z",
+    "pickedUpUtc": "2026-06-30T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "Assigned to Yusuf Maulana"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-30T14:00:00Z",
+        "reason": "Access to building denied"
+      }
+    ],
+    "createdUtc": "2026-06-30T10:00:00Z",
+    "updatedUtc": "2026-06-30T14:00:00Z"
+  },
+  {
+    "id": "task_20260622231646_f84f16b3",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260622191672_f72169bb",
+    "driverId": "driver_20260622067811_17fc695a",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-22T08:00:00Z",
+    "pickedUpUtc": "2026-06-22T09:00:00Z",
+    "deliveredUtc": "2026-06-22T13:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T08:00:00Z",
+        "reason": "Assigned to Dewi Lestari"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T07:00:00Z",
+    "updatedUtc": "2026-06-22T13:00:00Z"
+  },
+  {
+    "id": "task_20260701069410_9e11d2cd",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260701164197_a65bb1f2",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 1,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T12:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      }
+    ],
+    "createdUtc": "2026-07-01T11:00:00Z",
+    "updatedUtc": "2026-07-01T12:00:00Z"
+  },
+  {
+    "id": "task_20260625074711_4b1a269b",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260625135334_ff574e2b",
+    "driverId": "driver_20260624170785_571aa876",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T12:00:00Z",
+    "pickedUpUtc": "2026-06-25T13:00:00Z",
+    "deliveredUtc": "2026-06-25T15:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Assigned to Andi Saputra"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T11:00:00Z",
+    "updatedUtc": "2026-06-25T15:00:00Z"
+  },
+  {
+    "id": "task_20260625212871_24a35cf2",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260625168016_90e0a95b",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T11:00:00Z",
+    "pickedUpUtc": "2026-06-25T12:00:00Z",
+    "deliveredUtc": "2026-06-25T14:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "Assigned to Rizki Pratama"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T10:00:00Z",
+    "updatedUtc": "2026-06-25T14:00:00Z"
+  },
+  {
+    "id": "task_20260629171230_b0b862ef",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260629234808_0267deb3",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T09:00:00Z",
+    "pickedUpUtc": "2026-06-29T10:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T09:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T11:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T08:00:00Z",
+    "updatedUtc": "2026-06-29T11:00:00Z"
+  },
+  {
+    "id": "task_20260629232550_6553867d",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260629112223_ffd6f232",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-29T09:00:00Z",
+    "pickedUpUtc": "2026-06-29T10:00:00Z",
+    "deliveredUtc": "2026-06-29T14:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T09:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-29T13:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T08:00:00Z",
+    "updatedUtc": "2026-06-29T14:00:00Z"
+  },
+  {
+    "id": "task_20260705175559_088a93ec",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260705120324_9b689c88",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-05T09:00:00Z",
+    "pickedUpUtc": "2026-07-05T10:00:00Z",
+    "deliveredUtc": "2026-07-05T12:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T09:00:00Z",
+        "reason": "Assigned to Hendra Gunawan"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-05T08:00:00Z",
+    "updatedUtc": "2026-07-05T12:00:00Z"
+  },
+  {
+    "id": "task_20260623127363_e9ff1cae",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623145647_bf5ae7e6",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T09:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T09:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-06-23T08:00:00Z",
+    "updatedUtc": "2026-06-23T10:00:00Z"
+  },
+  {
+    "id": "task_20260626206096_5da36f1b",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260626148792_cde22f1c",
+    "driverId": null,
+    "status": 0,
+    "attemptCount": 0,
+    "assignedUtc": null,
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [],
+    "createdUtc": "2026-06-26T11:00:00Z",
+    "updatedUtc": "2026-06-26T11:00:00Z"
+  },
+  {
+    "id": "task_20260623121295_78b2b549",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623063648_43b38eb4",
+    "driverId": "driver_20260624089184_06671ad1",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T10:00:00Z",
+    "pickedUpUtc": "2026-06-23T11:00:00Z",
+    "deliveredUtc": "2026-06-23T13:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Assigned to Budi Santoso"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T13:00:00Z"
+  },
+  {
+    "id": "task_20260701121551_e3236d1a",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260701229778_102efde5",
+    "driverId": "driver_20260622159230_142c3fe8",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-01T08:00:00Z",
+    "pickedUpUtc": "2026-07-01T09:00:00Z",
+    "deliveredUtc": "2026-07-01T13:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T08:00:00Z",
+        "reason": "Assigned to Rina Marlina"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-01T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-01T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-01T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-01T07:00:00Z",
+    "updatedUtc": "2026-07-01T13:00:00Z"
+  },
+  {
+    "id": "task_20260702116955_71818dcf",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702201608_6b4be411",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T12:00:00Z",
+    "pickedUpUtc": "2026-07-02T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T12:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T14:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T11:00:00Z",
+    "updatedUtc": "2026-07-02T14:00:00Z"
+  },
+  {
+    "id": "task_20260625115602_a446be72",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260625086045_fb1e143b",
+    "driverId": "driver_20260623080916_daf61a26",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-25T09:00:00Z",
+    "pickedUpUtc": "2026-06-25T10:00:00Z",
+    "deliveredUtc": "2026-06-25T12:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-25T09:00:00Z",
+        "reason": "Assigned to Yusuf Maulana"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-25T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-25T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-25T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-25T08:00:00Z",
+    "updatedUtc": "2026-06-25T12:00:00Z"
+  },
+  {
+    "id": "task_20260622216233_00b9d4a3",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260622123850_fd235def",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-22T09:00:00Z",
+    "pickedUpUtc": "2026-06-22T10:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T09:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Address incomplete"
+      }
+    ],
+    "createdUtc": "2026-06-22T08:00:00Z",
+    "updatedUtc": "2026-06-22T12:00:00Z"
+  },
+  {
+    "id": "task_20260630170352_86ad8a8c",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260630105743_1c24220e",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-30T09:00:00Z",
+    "pickedUpUtc": "2026-06-30T10:00:00Z",
+    "deliveredUtc": "2026-06-30T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-30T09:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-30T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-30T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-30T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-30T08:00:00Z",
+    "updatedUtc": "2026-06-30T12:00:00Z"
+  },
+  {
+    "id": "task_20260629068165_0f9240e1",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260629194542_97fa7f04",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T09:00:00Z",
+    "pickedUpUtc": "2026-06-29T10:00:00Z",
+    "deliveredUtc": "2026-06-29T12:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T09:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T08:00:00Z",
+    "updatedUtc": "2026-06-29T12:00:00Z"
+  },
+  {
+    "id": "task_20260702216602_87d292a6",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702188521_b65feea9",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T07:00:00Z",
+    "pickedUpUtc": "2026-07-02T08:00:00Z",
+    "deliveredUtc": "2026-07-02T10:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T07:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-07-02T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T06:00:00Z",
+    "updatedUtc": "2026-07-02T10:00:00Z"
+  },
+  {
+    "id": "task_20260623084926_50032b35",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623089992_da509fed",
+    "driverId": "driver_20260623086793_17be3111",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T12:00:00Z",
+    "pickedUpUtc": "2026-06-23T13:00:00Z",
+    "deliveredUtc": "2026-06-23T15:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Assigned to Fitri Handayani"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T11:00:00Z",
+    "updatedUtc": "2026-06-23T15:00:00Z"
+  },
+  {
+    "id": "task_20260627207216_8fca7b6a",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260627184326_112fa612",
+    "driverId": "driver_20260624170785_571aa876",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T08:00:00Z",
+    "pickedUpUtc": "2026-06-27T09:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T08:00:00Z",
+        "reason": "Assigned to Andi Saputra"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T07:00:00Z",
+    "updatedUtc": "2026-06-27T10:00:00Z"
+  },
+  {
+    "id": "task_20260702118784_d8e7012f",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702167691_5a856750",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T07:00:00Z",
+    "pickedUpUtc": "2026-07-02T08:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T07:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T09:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T06:00:00Z",
+    "updatedUtc": "2026-07-02T09:00:00Z"
+  },
+  {
+    "id": "task_20260627232446_d4578ad9",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260627156353_1d691fba",
+    "driverId": "driver_20260622177757_96da1dac",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T11:00:00Z",
+    "pickedUpUtc": "2026-06-27T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Assigned to Siti Rahayu"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T10:00:00Z",
+    "updatedUtc": "2026-06-27T13:00:00Z"
+  },
+  {
+    "id": "task_20260622225982_f8c88fae",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260622131636_b3e4110a",
+    "driverId": "driver_20260624089184_06671ad1",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-22T08:00:00Z",
+    "pickedUpUtc": "2026-06-22T09:00:00Z",
+    "deliveredUtc": "2026-06-22T13:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T08:00:00Z",
+        "reason": "Assigned to Budi Santoso"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-22T12:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T07:00:00Z",
+    "updatedUtc": "2026-06-22T13:00:00Z"
+  },
+  {
+    "id": "task_20260628221962_0cbd3c03",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260628178920_5744f596",
+    "driverId": "driver_20260623080916_daf61a26",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-28T10:00:00Z",
+    "pickedUpUtc": "2026-06-28T11:00:00Z",
+    "deliveredUtc": "2026-06-28T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T10:00:00Z",
+        "reason": "Assigned to Yusuf Maulana"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-28T13:00:00Z",
+        "reason": "Access to building denied"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-28T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-28T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T09:00:00Z",
+    "updatedUtc": "2026-06-28T15:00:00Z"
+  },
+  {
+    "id": "task_20260629140850_0ba078e8",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260629175879_6a07f213",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-29T11:00:00Z",
+    "pickedUpUtc": "2026-06-29T12:00:00Z",
+    "deliveredUtc": "2026-06-29T14:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-29T11:00:00Z",
+        "reason": "Assigned to Rizki Pratama"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-29T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-29T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-29T14:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-29T10:00:00Z",
+    "updatedUtc": "2026-06-29T14:00:00Z"
+  },
+  {
+    "id": "task_20260622159669_88575117",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260622139015_f200c261",
+    "driverId": "driver_20260624066956_8fadc1a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-22T08:00:00Z",
+    "pickedUpUtc": "2026-06-22T09:00:00Z",
+    "deliveredUtc": "2026-06-22T11:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-22T08:00:00Z",
+        "reason": "Assigned to Rizki Pratama"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-22T09:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-22T10:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-22T11:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-22T07:00:00Z",
+    "updatedUtc": "2026-06-22T11:00:00Z"
+  },
+  {
+    "id": "task_20260623166176_0556daea",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623071089_6fac1673",
+    "driverId": "driver_20260624170785_571aa876",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-23T10:00:00Z",
+    "pickedUpUtc": "2026-06-23T11:00:00Z",
+    "deliveredUtc": "2026-06-23T15:00:00Z",
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Assigned to Andi Saputra"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-23T13:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-23T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T15:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T09:00:00Z",
+    "updatedUtc": "2026-06-23T15:00:00Z"
+  },
+  {
+    "id": "task_20260705118083_5543fc3c",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260705154857_168fae12",
+    "driverId": "driver_20260622067811_17fc695a",
+    "status": 4,
+    "attemptCount": 1,
+    "assignedUtc": "2026-07-05T12:00:00Z",
+    "pickedUpUtc": "2026-07-05T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-05T12:00:00Z",
+        "reason": "Assigned to Dewi Lestari"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-05T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-05T14:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-05T15:00:00Z",
+        "reason": "Recipient unreachable by phone"
+      }
+    ],
+    "createdUtc": "2026-07-05T11:00:00Z",
+    "updatedUtc": "2026-07-05T15:00:00Z"
+  },
+  {
+    "id": "task_20260702231837_134a5a2f",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260702199094_828c37e7",
+    "driverId": "driver_20260622067811_17fc695a",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-02T07:00:00Z",
+    "pickedUpUtc": "2026-07-02T08:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-02T07:00:00Z",
+        "reason": "Assigned to Dewi Lestari"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-02T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-02T09:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-02T06:00:00Z",
+    "updatedUtc": "2026-07-02T09:00:00Z"
+  },
+  {
+    "id": "task_20260704132004_97674900",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704189529_76c5a0dc",
+    "driverId": "driver_20260624089184_06671ad1",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-04T12:00:00Z",
+    "pickedUpUtc": "2026-07-04T13:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "Assigned to Budi Santoso"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-07-04T11:00:00Z",
+    "updatedUtc": "2026-07-04T14:00:00Z"
+  },
+  {
+    "id": "task_20260627192924_626d719d",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260627079448_4f76e388",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 3,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T11:00:00Z",
+    "pickedUpUtc": "2026-06-27T12:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T11:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T13:00:00Z",
+        "reason": "En route to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T10:00:00Z",
+    "updatedUtc": "2026-06-27T13:00:00Z"
+  },
+  {
+    "id": "task_20260701150030_fb7d9f1c",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260701070753_7321bf6b",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 6,
+    "attemptCount": 0,
+    "assignedUtc": "2026-07-01T11:00:00Z",
+    "pickedUpUtc": null,
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-01T11:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "atUtc": "2026-07-01T12:00:00Z",
+        "reason": "Sender cancelled the order"
+      }
+    ],
+    "createdUtc": "2026-07-01T10:00:00Z",
+    "updatedUtc": "2026-07-01T12:00:00Z"
+  },
+  {
+    "id": "task_20260624148700_adcc3daf",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260624124944_b526b22d",
+    "driverId": "driver_20260624110407_b45ed1f0",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-24T07:00:00Z",
+    "pickedUpUtc": "2026-06-24T08:00:00Z",
+    "deliveredUtc": "2026-06-24T12:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-24T07:00:00Z",
+        "reason": "Assigned to Hendra Gunawan"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-24T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-24T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-24T10:00:00Z",
+        "reason": "Recipient refused parcel"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-24T11:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-24T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-24T06:00:00Z",
+    "updatedUtc": "2026-06-24T12:00:00Z"
+  },
+  {
+    "id": "task_20260627231980_b2cf952d",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260627206266_adaa44ca",
+    "driverId": "driver_20260623080916_daf61a26",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-27T07:00:00Z",
+    "pickedUpUtc": "2026-06-27T08:00:00Z",
+    "deliveredUtc": "2026-06-27T10:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-27T07:00:00Z",
+        "reason": "Assigned to Yusuf Maulana"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-27T08:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-27T09:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-27T10:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-27T06:00:00Z",
+    "updatedUtc": "2026-06-27T10:00:00Z"
+  },
+  {
+    "id": "task_20260626116149_577bc55a",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260626158744_a4bbf962",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 5,
+    "attemptCount": 1,
+    "assignedUtc": "2026-06-26T11:00:00Z",
+    "pickedUpUtc": "2026-06-26T12:00:00Z",
+    "deliveredUtc": "2026-06-26T16:00:00Z",
+    "podNote": "Left at reception",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T12:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T13:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-06-26T14:00:00Z",
+        "reason": "Address incomplete"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-06-26T15:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T16:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T10:00:00Z",
+    "updatedUtc": "2026-06-26T16:00:00Z"
+  },
+  {
+    "id": "task_20260623223771_cf1d7d3a",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260623086513_81f7f3fb",
+    "driverId": "driver_20260622067811_17fc695a",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-23T09:00:00Z",
+    "pickedUpUtc": "2026-06-23T10:00:00Z",
+    "deliveredUtc": "2026-06-23T12:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-23T09:00:00Z",
+        "reason": "Assigned to Dewi Lestari"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-23T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-23T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-23T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-23T08:00:00Z",
+    "updatedUtc": "2026-06-23T12:00:00Z"
+  },
+  {
+    "id": "task_20260628209532_fc043f08",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260628122267_f836f571",
+    "driverId": "driver_20260623218263_43b7a3a6",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-28T09:00:00Z",
+    "pickedUpUtc": "2026-06-28T10:00:00Z",
+    "deliveredUtc": "2026-06-28T12:00:00Z",
+    "podNote": "Received by family member",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-28T09:00:00Z",
+        "reason": "Assigned to Joko Susilo"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-28T10:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-28T11:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-28T12:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-28T08:00:00Z",
+    "updatedUtc": "2026-06-28T12:00:00Z"
+  },
+  {
+    "id": "task_20260704195242_d9e604b3",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260704191833_87079ad4",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 4,
+    "attemptCount": 2,
+    "assignedUtc": "2026-07-04T10:00:00Z",
+    "pickedUpUtc": "2026-07-04T11:00:00Z",
+    "deliveredUtc": null,
+    "podNote": null,
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-07-04T10:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-07-04T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-07-04T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-04T13:00:00Z",
+        "reason": "Recipient not at address"
+      },
+      {
+        "from": 4,
+        "to": 3,
+        "atUtc": "2026-07-04T14:00:00Z",
+        "reason": "Retrying delivery"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "atUtc": "2026-07-04T15:00:00Z",
+        "reason": "Address incomplete"
+      }
+    ],
+    "createdUtc": "2026-07-04T09:00:00Z",
+    "updatedUtc": "2026-07-04T15:00:00Z"
+  },
+  {
+    "id": "task_20260626121807_62dbc850",
+    "tenantId": "nusantara-express",
+    "parcelId": "parcel_20260626194572_25b8a42f",
+    "driverId": "driver_20260622086868_ad3c2d6d",
+    "status": 5,
+    "attemptCount": 0,
+    "assignedUtc": "2026-06-26T10:00:00Z",
+    "pickedUpUtc": "2026-06-26T11:00:00Z",
+    "deliveredUtc": "2026-06-26T13:00:00Z",
+    "podNote": "Signed by recipient",
+    "history": [
+      {
+        "from": 0,
+        "to": 1,
+        "atUtc": "2026-06-26T10:00:00Z",
+        "reason": "Assigned to Agus Wijaya"
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "atUtc": "2026-06-26T11:00:00Z",
+        "reason": "Parcel collected from hub"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "atUtc": "2026-06-26T12:00:00Z",
+        "reason": "En route to recipient"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "atUtc": "2026-06-26T13:00:00Z",
+        "reason": "Handed to recipient"
+      }
+    ],
+    "createdUtc": "2026-06-26T09:00:00Z",
+    "updatedUtc": "2026-06-26T13:00:00Z"
+  }
+]
